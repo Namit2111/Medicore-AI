@@ -75,24 +75,6 @@ def calculate_keyword_weights(keywords):
     
     return keyword_weights
 
-def process_user_query(query):
-    """
-    Process the user's query to calculate keyword weights and simulate a search.
-    
-    Parameters:
-    query (str): The user's search query.
-    
-    Returns:
-    dict: A dictionary of keywords and their corresponding weights.
-    """
-
-    keywords = query.split(" ")
-    
-    weights = calculate_keyword_weights(keywords)
-    
-    print(f"\nSimulating search with query: '{query}'")
-    return weights
-
 
 def llm_query(query):
     """
@@ -110,6 +92,3 @@ def llm_query(query):
 
 
 
-
-if __name__ == "__main__":
-    pass

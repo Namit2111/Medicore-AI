@@ -1,6 +1,7 @@
 from googlesearch import search
 import wordfreq as wf
 import re
+from .gemini import generate_json_content
 def search_google(query,num_results=10, lang="en"):
     """
     find links on google 
@@ -71,7 +72,19 @@ def process_user_query(query):
     return weights
 
 
+def llm_query(query):
+    """
+    rewrites user query with llm
 
+    parameters:
+    query (str): user query
+
+    returns:
+    llm_query_json (json): json of llm query
+    """
+    prompt = f"{query}: change given text into a Google-searchable query and also give a list of keywords in that query that will help me find relatable articles,dont return keywords that are not in query. Return these in a JSON format, example: {{ 'query': 'new generated query' , 'keywords' : ['keywords'] }}"
+    llm_query_json = generate_json_content(prompt)   
+    return llm_query_json
 
 
 

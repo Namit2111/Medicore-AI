@@ -2,6 +2,28 @@ from googlesearch import search
 import wordfreq as wf
 import re
 from .gemini import generate_json_content
+import os 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(script_dir)
+def get_prompt(filename):
+    """
+    reads a prompt from a file and returns it
+
+    parameters:
+    filename (str): filename of the prompt
+
+    returns:
+    str: the prompt
+    """
+    prompts_dir = os.path.join(parent_dir, 'prompts')
+    file_path = os.path.join(prompts_dir, filename)
+    with open(file_path, 'r') as file:
+        prompt = file.read()
+    
+    return prompt
+
+
+
 def search_google(query,num_results=10, lang="en"):
     """
     find links on google 
@@ -82,7 +104,7 @@ def llm_query(query):
     returns:
     llm_query_json (json): json of llm query
     """
-    prompt = f"{query}: change given text into a Google-searchable query and also give a list of keywords in that query that will help me find relatable articles,dont return keywords that are not in query. Return these in a JSON format, example: {{ 'query': 'new generated query' , 'keywords' : ['keywords'] }}"
+    prompt = get_prompt(filename = "llm_query.txt").replace("{query}", query)
     llm_query_json = generate_json_content(prompt)   
     return llm_query_json
 

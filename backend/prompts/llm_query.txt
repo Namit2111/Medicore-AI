@@ -1,0 +1,1 @@
+{query}: change given text into a Google-searchable query and also give a list of keywords in that query that will help me find relatable articles,dont return keywords that are not in query. Return these in a JSON format, example: {{ 'query': 'new generated query' , 'keywords' : ['keywords'] }}

@@ -24,18 +24,17 @@ def get_prompt(filename):
 
 
 
-def search_google(query,num_results=10, lang="en"):
+def search_google(query,num_results=10, lang="en",advanced=False):
     """
     find links on google 
 
     parameters:
-    query (str): search query , num_results (int) : number of results, lang (str) : language
+    query (str): search query , num_results (int) : number of results, lang (str) : language, advanced (bool) : advanced search
 
     returns:
     list of links
     """
-    return search(query, num_results=num_results, lang=lang)
-
+    return search(query, num_results=num_results, lang=lang,advanced= advanced)
 
 
 def calculate_keyword_weights(keywords):
@@ -57,7 +56,7 @@ def calculate_keyword_weights(keywords):
 
         if weight > 0:
             keyword_weights[keyword] = weight
-            print(f"Keyword/Phrase: '{keyword}' | Zipf: {zipf:.2f} | Weight: {weight}")
+            # print(f"Keyword/Phrase: '{keyword}' | Zipf: {zipf:.2f} | Weight: {weight}")
 
 
     for keyword in keywords:
@@ -71,9 +70,50 @@ def calculate_keyword_weights(keywords):
 
                     if sub_wgt > 0:
                         keyword_weights[subwd] = sub_wgt
-                        print(f"  Subword: '{subwd}' | Zipf: {sub_z:.2f} | Weight: {sub_wgt}")
+                        # print(f"  Subword: '{subwd}' | Zipf: {sub_z:.2f} | Weight: {sub_wgt}")
     
     return keyword_weights
+
+def rate_text_based_on_keywords(text, keyword_weights):
+    """
+    Rate a text based on the weights of the keywords found in it and apply a penalty for missing keywords.
+    
+    Parameters:
+    text (str): The text to be rated.
+    keyword_weights (dict): A dictionary of keywords/phrases and their corresponding weights.
+    
+    Returns:
+    float: The overall rating of the text.
+    """
+    
+    total_weight = 0
+    matched_keywords_count = 0
+    missing_weight_penalty = 0
+    
+    words = text.split()
+    
+
+    for keyword, weight in keyword_weights.items():
+        if keyword in words:
+            
+            total_weight += weight * words.count(keyword)
+            matched_keywords_count += 1
+        else:
+           
+            missing_weight_penalty += weight * 0.3
+    
+    if matched_keywords_count > 0:
+        score = (total_weight - missing_weight_penalty) / len(keyword_weights)
+    else:
+        score = -missing_weight_penalty
+    
+    rating = max(0, score)
+    
+    # print(f"Total Weight: {total_weight} | Missing Penalty: {missing_weight_penalty} | Rating: {rating:.2f}")
+    
+    return rating
+
+
 
 
 def llm_query(query):

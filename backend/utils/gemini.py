@@ -16,5 +16,5 @@ def generate_json_content(prompt):
 model_text = genai.GenerativeModel('gemini-1.5-flash')
 def generate_content(prompt):
 
-    response = model.generate_content(prompt)
+    response = model_text.generate_content(prompt)
     return response.text

@@ -1,10 +1,35 @@
 from googlesearch import search
 import wordfreq as wf
 import re
-from .gemini import generate_json_content
+from .gemini import generate_json_content,generate_content
 import os 
+import requests
+from bs4 import BeautifulSoup
 script_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(script_dir)
+
+
+
+# -------------------------Decorator-------------------------
+
+
+
+def time_it(func):
+    def wrapper(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        print(f"{func.__name__} took {end_time - start_time} seconds to execute.")
+        return result
+    return wrapper
+
+
+
+
+
+
+# -------------------------------------------------------------
+
 def get_prompt(filename):
     """
     reads a prompt from a file and returns it
@@ -131,4 +156,25 @@ def llm_query(query):
     return llm_query_json
 
 
+def chat_bot(query):
+    answer = generate_content(prompt = query)
+    return answer
 
+
+def extract_text_from_website(url):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"
+    }
+    r = requests.get(url=url, headers=headers)
+
+    soup = BeautifulSoup(r.content, "lxml")
+
+    for script in soup(["script", "style"]):
+        script.extract()  
+
+    text = soup.get_text()
+    lines = (line.strip() for line in text.splitlines())
+    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+    text = "\n".join(chunk for chunk in chunks if chunk)
+
+    return text

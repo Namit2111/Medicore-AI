@@ -18,3 +18,4 @@ def generate_content(prompt):
 
     response = model_text.generate_content(prompt)
     return response.text
+

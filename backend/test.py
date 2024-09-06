@@ -29,7 +29,7 @@
 
 # print( utils.chat_bot(query= f"answer the user query based on context be precise query:{res['query']} context:{webtxt}"))
 
-# ---------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------
 
 
 # sample decorator
@@ -47,6 +47,9 @@
 #     return "hello"
 
 # print(fun())
+
+# ----------------------------------------------------------------------------------------------------
+
 from utils import gemini
 from utils import utils
 
@@ -69,7 +72,7 @@ while True:
     
     # Update the latest answer in the conversation
     conversation["questions_answers"][-1]["answer"] = i
-    
+        
     # Format the conversation as a string
     formatted_conversation = format_conversation(conversation)
     

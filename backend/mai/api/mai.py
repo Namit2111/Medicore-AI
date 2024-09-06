@@ -25,4 +25,8 @@ def save_appoinment_details():
         set_appointment(appointment_id,name,problem,phone,email,time,date)
         return jsonify({}),200
     except Exception as e:
-        return jsonify({'error': str(e)}), 400        
+        return jsonify({'error': str(e)}), 400
+    
+    
+a="something"
+# @mai_api_v1.route('/chat')

@@ -3,20 +3,14 @@ import json
 from pymongo import MongoClient
 import os
 from bson.objectid import ObjectId
-from dotenv import load_dotenv
+from config.config import mongo_uri,database_name,collection_name,collection_name2
 import time
 import uuid
 from datetime import datetime
 # from xid import Xid
 
 # Load environment variables from .env file
-load_dotenv()
 
-# Retrieve configuration from environment variables
-mongo_uri = os.getenv('MONGO_URI')
-database_name = os.getenv('DATABASE_NAME')
-collection_name = os.getenv('COLLECTION_NAME')
-collection_name2=os.getenv('COLLECTION_NAME2')
 client=MongoClient(mongo_uri)
 db=client[database_name]
 def get_available_schedule():

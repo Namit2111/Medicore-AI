@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import ChatWindow from './components/ChatWindow';
 import './App.css';
+<<<<<<< HEAD
+=======
+import AllRoutes from './Route/AllRoutes';
+>>>>>>> a4f17bb33de5dd59e7a20d3aaef586ed81175e7d
 
 const App = () => {
   const [isAppointmentBot, setIsAppointmentBot] = useState(false);
@@ -45,11 +49,15 @@ const App = () => {
 
   return (
     <div className="App">
+<<<<<<< HEAD
       <ChatWindow
         messages={messages}
         onSendMessage={handleSendMessage}
         switchBot={switchBot}
       />
+=======
+      <AllRoutes/>
+>>>>>>> a4f17bb33de5dd59e7a20d3aaef586ed81175e7d
     </div>
   );
 };

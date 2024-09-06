@@ -1,19 +1,22 @@
 .coming-soon-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-width:100vw;
+    justify-content: space-between;
+    min-height: 60vh;
+    /* background: linear-gradient(135deg, #667eea, #764ba2); */
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    padding:15px;
   }
   
   .content {
     max-width: 500px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
+    color:#462b61
   }
   
   h1 {

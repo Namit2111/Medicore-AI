@@ -1,0 +1,2 @@
+Tell the user that their appointment has been set and list the details of their appointment in a clean formatted way and at the end tell the user to save the
+appointment id and bring the mentioned appointment id during their visit

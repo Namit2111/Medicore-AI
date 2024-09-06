@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify
 from flask_cors import CORS
 from datetime import datetime
-from db import set_appointment,get_available_schedule
+from db.db import set_appointment,get_available_schedule
 mai_api_v1 = Blueprint(
     'mai_api_v1', 'mai_api_v1', url_prefix='/api/v1/bot')
 

@@ -1,7 +1,7 @@
 from googlesearch import search
 import wordfreq as wf
 import re
-from .gemini import generate_json_content,generate_content
+from utils.gemini import generate_json_content,generate_content
 import os 
 import requests
 from bs4 import BeautifulSoup

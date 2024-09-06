@@ -47,6 +47,7 @@ function ChatBot() {
      <div className="flex flex-col h-full w-1/2 border border-gray-300 rounded-full">
       <div className='h-20 text-center w-full bg-purple-500 rounded-tr-3xl rounded-tl-3xl justify-center text-white font-extrabold text-5xl place-content-center place-self-center sticky top-0 flex'><div>mai</div></div>
       <div className="flex flex-col overflow-y-auto p-4 bg-white h-full">
+        {/* <div ></div> buttons*/} 
         {messages.map((msg, index) => (
           <div  key={index} className={`w-full h-fit flex flex-col ${msg.sender!='bot'?'justify-start':'justify-end'}`}>
             <Suspense fallback={<ThreeDots

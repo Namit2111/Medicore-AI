@@ -1,20 +1,13 @@
-from flask import Flask, send_from_directory
-from app.schedule import mai_api_v1
-
-app = Flask(__name__, static_folder='../frontend/dist')
-app.register_blueprint(mai_api_v1)
-
-# Serve the React app
-@app.route('/')
-def serve_react_app():
-    return send_from_directory(app.static_folder, 'index.html')
-
-# Serve static files
-@app.route('/<path:path>')
-def serve_static_files(path):
-    return send_from_directory(app.static_folder, path)
-
- 
+from flask import Flask
+# from app.schedule import mai_api_v1
+from app.frontend import frontend  
+from app.chat import chat_app
+app = Flask(__name__)
+app.config['SECRET_KEY'] = 'secret!'
+# Register blueprints
+# app.register_blueprint(mai_api_v1)
+app.register_blueprint(frontend)
+app.register_blueprint(chat_app)
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000)

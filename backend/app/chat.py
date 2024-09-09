@@ -54,7 +54,7 @@ def chat():
 
 @chat_app.route("/result",methods=['POST'])
 def web_res():
-        """
+    """
     Handles the chatbot's web result generation by taking the user's conversation,
     querying an LLM to extract keywords, searching Google for relevant results, 
     rating those results based on keyword relevance, extracting text from the top results, 
@@ -85,8 +85,7 @@ def web_res():
     if len(non_zero_links) >=3:
         final_links = non_zero_links[:3]
 
-    webtxt = "" 
-
+    webtxt = ""
     for link, ratinf in final_links:
         webtxt = webtxt + utils.extract_text_from_website(url = link)
 

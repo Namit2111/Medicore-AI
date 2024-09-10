@@ -1,6 +1,6 @@
 from flask import Blueprint, session, request, jsonify
 from utils import gemini, utils,helper  
-from datetime import timedelta
+import math 
 chat_app = Blueprint('chat_app',"chat_app", url_prefix="/chat")
 
 
@@ -76,21 +76,27 @@ def web_res():
     
     # Search Google for relevant results using the query extracted from the LLM response
     google_res = utils.search_google(llm_res['query'], num_results=10,advanced=True)
-
+    # print(google_res)
+  
     # Iterate through the Google search results and rate each one based on keyword relevance
     for result in google_res:
+        # print(result)
         rating = utils.rate_text_based_on_keywords(text=result.description, keyword_weights=keywords_weight)
         rated_links.append((result.url,rating))
-
+    
     # Sort the links based on their rating in descending order (highest rated first)
     rated_links.sort(key =lambda x:x[1],reverse=True)
 
     # Filter out any links with a zero rating
-    non_zero_links = [link for link in rated_links if link[1]>0]
+    non_zero_links = [link for link in rated_links if math.ceil(link[1])>0]
+    # print(non_zero_links)
 
     # If there are at least three rated links, select the top 3
+
     if len(non_zero_links) >=3:
         final_links = non_zero_links[:3]
+    else:
+        final_links = non_zero_links
 
 
     webtxt = "" 

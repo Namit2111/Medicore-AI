@@ -2,7 +2,13 @@ from flask import Flask
 # from app.schedule import mai_api_v1
 from app.frontend import frontend  
 from app.chat import chat_app
+from flask_cors import CORS
+
 app = Flask(__name__)
+
+# Enable CORS for all routes and origins
+CORS(app)
+
 app.config['SECRET_KEY'] = 'secret!'
 # Register blueprints
 # app.register_blueprint(mai_api_v1)

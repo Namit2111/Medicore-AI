@@ -4,14 +4,6 @@ from datetime import timedelta
 chat_app = Blueprint('chat_app',"chat_app", url_prefix="/chat")
 
 
-
-
-
-@chat_app.before_request
-def make_session_permanent():
-    session.permanent = True
-    chat_app.permanent_session_lifetime = timedelta(minutes=60) 
-
 @chat_app.route('/', methods=['POST'])
 def chat():
     """
@@ -42,9 +34,7 @@ def chat():
     # Check if all information is gathered
     if res['got_all_info']:
         response_text = "Thank you! I have all the information I need."
-        # print("Final conversation log:")
-        # print(helper.format_conversation(conversation))
-        # session.pop('conversation')  # End the session if all info is gathered
+       # session.pop('conversation')  # End the session if all info is gathered
         
 
     else:
@@ -56,7 +46,7 @@ def chat():
 
     # Update session with the modified conversation
     session['conversation'] = conversation
-    # print(response_text)
+
     # Return the new question to the user
     return jsonify({"response": response_text,"flag":res['got_all_info']})
 

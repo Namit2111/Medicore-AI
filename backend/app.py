@@ -14,7 +14,6 @@ app.config['SESSION_COOKIE_SECURE'] = False
 # Enable CORS for all routes and origins
 CORS(app,supports_credentials=True)
 
-# Session(app)
 # Register blueprints
 # app.register_blueprint(mai_api_v1)
 app.register_blueprint(frontend)

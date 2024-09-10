@@ -30,7 +30,7 @@ def chat():
     
     # Get the response from the Gemini model
     res = gemini.generate_json_content(prompt=prompt)
-    print(helper.format_conversation(conversation))
+    # print(helper.format_conversation(conversation))
     # Check if all information is gathered
     if res['got_all_info']:
         response_text = "Thank you! I have all the information I need."

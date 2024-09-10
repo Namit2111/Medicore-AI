@@ -24,6 +24,7 @@ function ChatBot() {
           "Content-Type": "application/json", // Set the content type
         },
         body: JSON.stringify({ message: input }), // Replace 'userMessage' with the actual message you want to send
+        credentials: 'include'
       });
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -61,6 +62,7 @@ function ChatBot() {
           "Content-Type": "application/json", // Set the content type
         },
         body: JSON.stringify({ message: input }), // Replace 'userMessage' with the actual message you want to send
+        credentials: 'include'
       });
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -106,6 +108,7 @@ function ChatBot() {
           "Content-Type": "application/json", // Set the content type
         },
         body: JSON.stringify({ message: input }), // Replace 'userMessage' with the actual message you want to send
+        credentials: 'include'
       });
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);

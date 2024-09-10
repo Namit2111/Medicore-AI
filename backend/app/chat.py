@@ -1,8 +1,16 @@
 from flask import Blueprint, session, request, jsonify
 from utils import gemini, utils,helper  
-
+from datetime import timedelta
 chat_app = Blueprint('chat_app',"chat_app", url_prefix="/chat")
 
+
+
+
+
+@chat_app.before_request
+def make_session_permanent():
+    session.permanent = True
+    chat_app.permanent_session_lifetime = timedelta(minutes=60) 
 
 @chat_app.route('/', methods=['POST'])
 def chat():
@@ -13,8 +21,8 @@ def chat():
     returns:
     response (json): A JSON response with either the next question or a thank you message.
     """
+
     user_input = request.json.get('message')
-    
     # Check if conversation exists in session, if not initialize it
     if 'conversation' not in session:
         session['conversation'] = helper.initialize_conversation()
@@ -30,12 +38,12 @@ def chat():
     
     # Get the response from the Gemini model
     res = gemini.generate_json_content(prompt=prompt)
-    
+    print(helper.format_conversation(conversation))
     # Check if all information is gathered
     if res['got_all_info']:
         response_text = "Thank you! I have all the information I need."
-        print("Final conversation log:")
-        print(helper.format_conversation(conversation))
+        # print("Final conversation log:")
+        # print(helper.format_conversation(conversation))
         # session.pop('conversation')  # End the session if all info is gathered
         
 
@@ -44,10 +52,11 @@ def chat():
         new_question = {"question": res.get("question", "What would you like to know next?"), "answer": ""}
         conversation["questions_answers"].append(new_question)
         response_text = res['question']
+        
 
     # Update session with the modified conversation
     session['conversation'] = conversation
-    print(response_text)
+    # print(response_text)
     # Return the new question to the user
     return jsonify({"response": response_text,"flag":res['got_all_info']})
 

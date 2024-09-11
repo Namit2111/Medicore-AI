@@ -1,42 +1,130 @@
 import React from 'react';
-import './ComingSoon.css';
-import { Appbar } from '../components/Appbar';
 import { useNavigate } from 'react-router-dom';
+import img1 from "../assets/img1.webp"
+import img2 from "../assets/img2.webp"
 const ComingSoon = () => {
-  const navigate=useNavigate()
-  const register=()=>{
-    navigate('/chat')
-  }
+  const navigate = useNavigate();
+  
+  const register = () => {
+    navigate('/chat');
+  };
+
   return (
-    <div className='w-screen h-screen'>
-     <div className='h-20  m-3 w-full border-b-2 border-dashed border-teal-400 flex place-content-between align-middle'><div className='font-extrabold text-5xl text-transparent bg-clip-text bg-gradient-to-br from-teal-700 to-teal-300 place-self-center'>Medicore</div><div className='rounded-full border-teal-900 border w-1/4 h-14 flex invisible place-self-center place-items-center justify-evenly '><div className="justify-center place-items-center">Testimonials</div><div>FAQs</div></div><div  className='bg-teal-300 flex align-middle font-bold text-lg place-items-center justify-center w-32 rounded-full h-14 hover:cursor-pointer hover:bg-teal-500 hover:text-white place-self-center' >Login</div></div>
-     <div className='h-screen w-screen flex justify-center place-items-center'>
-     <div className='h-4/5 flex w-screen place-content-center justify-center'> <div className="w-full justify-evenly place-content-between flex flex-col m-2 ">
-     {/* <div className='font-extrabold text-9xl text-transparent bg-clip-text bg-gradient-to-br from-teal-700 to-teal-600 place-self-center'>MAI</div> */}
-     <div className='text-7xl font-bold text-wrap text-teal-800'>Want <br/> Personalized Medical Information<br/> Just have a Chat with <br/><span className="text-transparent text-9xl bg-clip-text bg-gradient-to-br from-teal-700 to-teal-400">Medicore</span></div>
-     <div className='bg-teal-600 flex align-middle font-bold text-lg place-items-center justify-center w-52 rounded-full h-20 hover:cursor-pointer hover:bg-teal-500 place-self-center' onClick={register}>Get Started</div></div></div>
-     </div>
-    <div className="flex items-center min-w-[100vw] justify-between min-h-[60vh] font-sans text-center p-2 bg-gradient-to-br from-teal-700 to-teal-400">
-     <div><div className='font-extrabold text-5xl text-white'>Medicore</div>
-     <div>We at Medicore believe in that every person should know what&apos;s going on with their body in a simplest language possible</div>
-     </div>
-    <div className="content">
-      {/* <h1>Coming Soon</h1>
-      <p>We&apos;re working hard to give you a better experience!</p> */}
-      <div className="countdown">
-        <div className="time-section">
-          <span className="time">Get Weekly Updates</span>
-          <span className="label">Subscribe to Our Newsletter</span>
+    <div className="w-screen h-full bg-gray-50">
+      {/* Header */}
+      <header className="h-20 p-4 flex items-center justify-between bg-white shadow-lg">
+        <div className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-teal-700 to-teal-300">
+          Medicore
         </div>
-      </div>
-      <form className="email-form">
-        <input type="email" placeholder="Enter your email" />
-        <button type="submit">Notify Me</button>
-      </form>
+        <nav className="hidden md:flex space-x-8">
+          <div className="cursor-pointer text-teal-600 hover:text-teal-400 transition duration-300">
+            Testimonials
+          </div>
+          <div className="cursor-pointer text-teal-600 hover:text-teal-400 transition duration-300">
+            FAQs
+          </div>
+        </nav>
+        <div className="bg-teal-500 text-lg font-semibold text-white px-6 py-3 rounded-full cursor-pointer hover:bg-teal-400 transition duration-300">
+          Login
+        </div>
+      </header>
+
+      {/* Hero Section */}
+      <section className="flex flex-col items-center justify-center p-16 bg-gradient-to-br from-teal-100 to-teal-50">
+        <div className="text-center max-w-4xl">
+          <h1 className="text-4xl md:text-6xl font-bold text-teal-800 leading-snug">
+            Need Personalized Medical Information?
+            <br /> Chat with
+            <br />
+            <span className="text-transparent text-5xl md:text-7xl bg-clip-text bg-gradient-to-br from-teal-600 to-teal-300">
+              Medicore
+            </span>
+          </h1>
+          <p className="mt-4 text-xl text-gray-600">
+            Your health, your way—tailored information just for you, explained in a simple and understandable manner.
+          </p>
+          <div
+            className="mt-8 bg-teal-600 text-lg font-semibold text-white px-10 py-4 rounded-full cursor-pointer hover:bg-teal-500 transition duration-300 shadow-lg"
+            onClick={register}
+          >
+            Get Started
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-16 bg-white">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-teal-800">Why Choose Medicore?</h2>
+          <p className="mt-2 text-gray-600">We provide a range of personalized medical services to help you stay informed and healthy.</p>
+        </div>
+        <div className="flex justify-around flex-wrap">
+          <div className="max-w-xs text-center p-6 shadow-lg bg-gray-50 rounded-lg transition hover:shadow-xl">
+            <img src={img1} alt="Easy" className="mx-auto h-24 mb-4" />
+            <h3 className="text-2xl font-semibold text-teal-700">Easy to Understand</h3>
+            <p className="mt-2 text-gray-600">We break down medical information in simple language so everyone can stay informed.</p>
+          </div>
+          <div className="max-w-xs text-center p-6 shadow-lg bg-gray-50 rounded-lg transition hover:shadow-xl">
+            <img src={img2} alt="Secure" className="mx-auto h-24 mb-4" />
+            <h3 className="text-2xl font-semibold text-teal-700">Secure & Private</h3>
+            <p className="mt-2 text-gray-600">Your health is important. We ensure that your data is protected and private at all times.</p>
+          </div>
+          <div className="max-w-xs text-center p-6 shadow-lg bg-gray-50 rounded-lg transition hover:shadow-xl">
+            <img src={img1} alt="Support" className="mx-auto h-24 mb-4" />
+            <h3 className="text-2xl font-semibold text-teal-700">Expert Support</h3>
+            <p className="mt-2 text-gray-600">Get guidance from medical professionals to better understand your health and treatments.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-teal-800">How It Works</h2>
+          <p className="mt-2 text-gray-600">It’s easy to start your journey to personalized medical knowledge.</p>
+        </div>
+        <div className="flex flex-wrap justify-around space-y-8 md:space-y-0">
+          <div className="max-w-sm text-center p-6">
+            <h3 className="text-2xl font-semibold text-teal-700 mb-4">1. Start a Chat</h3>
+            <p className="text-gray-600">Simply click "Get Started" to begin a chat with Medicore and tell us what you need to know.</p>
+          </div>
+          <div className="max-w-sm text-center p-6">
+            <h3 className="text-2xl font-semibold text-teal-700 mb-4">2. Receive Tailored Info</h3>
+            <p className="text-gray-600">We’ll provide you with personalized information based on your health concerns and questions.</p>
+          </div>
+          <div className="max-w-sm text-center p-6">
+            <h3 className="text-2xl font-semibold text-teal-700 mb-4">3. Stay Informed</h3>
+            <p className="text-gray-600">Get regular updates and notifications to keep you informed about your health.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer with Newsletter */}
+      <footer className="p-8 bg-teal-800 text-white text-center">
+        <div className="font-extrabold text-4xl mb-4">Medicore</div>
+        <p className="max-w-2xl mx-auto text-lg font-light">
+          At Medicore, we believe everyone should understand their body in the simplest terms possible. Stay informed with personalized, clear, and concise medical information.
+        </p>
+        <div className="mt-8 space-y-4">
+          <p className="text-xl font-semibold">Get Weekly Updates</p>
+          <p className="text-lg">Subscribe to Our Newsletter</p>
+          <form className="flex justify-center items-center space-x-4 mt-4">
+            <input
+              type="email"
+              className="p-3 w-80 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 text-gray-800"
+              placeholder="Enter your email"
+            />
+            <button
+              type="submit"
+              className="bg-white text-teal-600 font-bold px-6 py-3 rounded-full hover:bg-gray-100 transition duration-300"
+            >
+              Notify Me
+            </button>
+          </form>
+        </div>
+      </footer>
     </div>
-  </div>
-</div>
-      );
+  );
 };
 
 export default ComingSoon;

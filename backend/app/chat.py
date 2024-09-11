@@ -143,7 +143,7 @@ def web_res():
     if len(non_zero_links) >=3:
         final_links = non_zero_links[:3]
     else:
-        final_links = non_zero_links
+        final_links = rated_links[:3]
 
 
     webtxt = "" 

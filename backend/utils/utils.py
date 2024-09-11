@@ -5,6 +5,9 @@ from utils.gemini import generate_json_content,generate_content
 import os 
 import requests
 from bs4 import BeautifulSoup
+from utils.decorators import time_it
+
+
 script_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(script_dir)
 
@@ -14,14 +17,14 @@ parent_dir = os.path.dirname(script_dir)
 
 
 
-def time_it(func):
-    def wrapper(*args, **kwargs):
-        start_time = time.time()
-        result = func(*args, **kwargs)
-        end_time = time.time()
-        print(f"{func.__name__} took {end_time - start_time} seconds to execute.")
-        return result
-    return wrapper
+# def time_it(func):
+#     def wrapper(*args, **kwargs):
+#         start_time = time.time()
+#         result = func(*args, **kwargs)
+#         end_time = time.time()
+#         print(f"{func.__name__} took {end_time - start_time} seconds to execute.")
+#         return result
+#     return wrapper
 
 
 
@@ -29,7 +32,7 @@ def time_it(func):
 
 
 # -------------------------------------------------------------
-
+@time_it
 def get_prompt(filename):
     """
     reads a prompt from a file and returns it
@@ -48,7 +51,7 @@ def get_prompt(filename):
     return prompt
 
 
-
+@time_it
 def search_google(query,num_results=10, lang="en",advanced=False):
     """
     find links on google 
@@ -61,7 +64,7 @@ def search_google(query,num_results=10, lang="en",advanced=False):
     """
     return search(query, num_results=num_results, lang=lang,advanced= advanced)
 
-
+@time_it
 def calculate_keyword_weights(keywords):
     """
     Calculate the weights of keywords and phrases based on their Zipf frequency.
@@ -99,6 +102,7 @@ def calculate_keyword_weights(keywords):
     
     return keyword_weights
 
+@time_it
 def rate_text_based_on_keywords(text, keyword_weights):
     """
     Rate a text based on the weights of the keywords found in it and apply a penalty for missing keywords.
@@ -140,7 +144,7 @@ def rate_text_based_on_keywords(text, keyword_weights):
 
 
 
-
+@time_it
 def llm_query(query):
     """
     rewrites user query with llm
@@ -155,12 +159,12 @@ def llm_query(query):
     llm_query_json = generate_json_content(prompt)   
     return llm_query_json
 
-
+@time_it
 def chat_bot(query):
     answer = generate_content(prompt = query)
     return answer
 
-
+@time_it
 def extract_text_from_website(url):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"

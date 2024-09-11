@@ -1,0 +1,914 @@
+2024-09-11 06:01:06 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-11 06:01:06 - [33mPress CTRL+C to quit[0m
+2024-09-11 06:02:24 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-11 06:02:24 - [33mPress CTRL+C to quit[0m
+2024-09-11 06:03:50 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-11 06:03:50 - [33mPress CTRL+C to quit[0m
+2024-09-11 06:08:21 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-11 06:08:21 - [33mPress CTRL+C to quit[0m
+2024-09-11 06:10:12 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-11 06:10:12 - [33mPress CTRL+C to quit[0m
+2024-09-11 06:18:51 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-11 06:18:51 - [33mPress CTRL+C to quit[0m
+2024-09-11 08:11:33 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-11 08:11:33 - [33mPress CTRL+C to quit[0m
+2024-09-11 11:06:39 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2024-09-11 11:06:39 - [33mPress CTRL+C to quit[0m
+2024-09-11 11:21:12 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2024-09-11 11:21:12 - [33mPress CTRL+C to quit[0m
+2024-09-11 11:25:47 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2024-09-11 11:25:47 - [33mPress CTRL+C to quit[0m
+2024-09-11 11:26:40 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2024-09-11 11:26:40 - [33mPress CTRL+C to quit[0m
+2024-09-11 11:27:46 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2024-09-11 11:27:46 - [33mPress CTRL+C to quit[0m
+2024-09-11 12:00:09 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-11 12:00:09 - [33mPress CTRL+C to quit[0m
+2024-09-11 12:02:38 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-11 12:02:38 - [33mPress CTRL+C to quit[0m
+2024-09-11 12:03:55 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-11 12:03:55 - [33mPress CTRL+C to quit[0m
+2024-09-11 12:03:55 -  * Restarting with stat
+2024-09-11 12:04:00 -  * Debugger is active!
+2024-09-11 12:04:00 -  * Debugger PIN: 142-502-527
+2024-09-11 12:09:09 -  * Detected change in 'D:\\P.Projex\\hackathons\\medicorenamit\\Medicore-AI\\backend\\app\\chat.py', reloading
+2024-09-11 12:09:11 -  * Restarting with stat
+2024-09-11 12:09:33 -  * Debugger is active!
+2024-09-11 12:09:33 -  * Debugger PIN: 142-502-527
+2024-09-11 12:15:13 - 127.0.0.1 - - [11/Sep/2024 12:15:13] "OPTIONS /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:15:13 - Function: get_prompt
+Execution Time: 0.000997 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information 
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 12:15:17 - 127.0.0.1 - - [11/Sep/2024 12:15:17] "POST /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:15:24 - 127.0.0.1 - - [11/Sep/2024 12:15:24] "OPTIONS /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:15:24 - Function: get_prompt
+Execution Time: 0.000997 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information 
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 12:15:25 - 127.0.0.1 - - [11/Sep/2024 12:15:25] "POST /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:15:31 - 127.0.0.1 - - [11/Sep/2024 12:15:31] "OPTIONS /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:15:32 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information 
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 12:15:33 - 127.0.0.1 - - [11/Sep/2024 12:15:33] "POST /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:15:35 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information 
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 12:15:36 - 127.0.0.1 - - [11/Sep/2024 12:15:36] "POST /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:15:40 - 127.0.0.1 - - [11/Sep/2024 12:15:40] "OPTIONS /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:15:41 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information 
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 12:15:42 - 127.0.0.1 - - [11/Sep/2024 12:15:42] "POST /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:30:50 - 127.0.0.1 - - [11/Sep/2024 12:30:50] "OPTIONS /chat/result HTTP/1.1" 200 -
+2024-09-11 12:30:50 - Function: get_prompt
+Execution Time: 0.001995 seconds
+Arguments: () {'filename': 'llm_query.txt'}
+Output: {query}: change given text into a Google-searchable query(so that i can search the disease on google also make it so that user can find cure for it ) and also give a list of keywords in that query that will help me find relatable articles,dont return keywords that are not in query. Return these in a JSON format, example: {{ 'query': 'new generated query' , 'keywords' : ['keywords'] }}
+-------------------------------------
+2024-09-11 12:30:52 - Function: llm_query
+Execution Time: 2.214420 seconds
+Arguments: () {'query': "Q: How can I help you today?\nA: Hello\nQ: What's the problem you're facing?\nA: Hello\nQ: Have you eaten anything that might have been bad?\nA: hello\nQ: What are your symptoms?\nA: hello\nQ: Please tell me what symptoms you are experiencing.\nA: hello\nQ: Please describe the symptoms you are experiencing.\nA: I have fever\nQ: What is your name?\nA: Nimrit\nQ: What is your gender?\nA: Male\nQ: How old are you?\nA: 21\nQ: Did you eat anything that might have been bad?\nA: no\n"}
+Output: {'query': 'fever male 21 years old', 'keywords': ['fever', 'male', '21', 'years', 'old']}
+-------------------------------------
+2024-09-11 12:30:53 - Function: calculate_keyword_weights
+Execution Time: 0.890825 seconds
+Arguments: () {'keywords': ['fever', 'male', '21', 'years', 'old']}
+Output: {'fever': 3, 'male': 3, '21': 2, 'years': 2, 'old': 2}
+-------------------------------------
+2024-09-11 12:30:53 - Function: search_google
+Execution Time: 0.000000 seconds
+Arguments: ('fever male 21 years old',) {'num_results': 10, 'advanced': True}
+Output: <generator object search at 0x0000026ADA170700>
+-------------------------------------
+2024-09-11 12:30:57 - Function: rate_text_based_on_keywords
+Execution Time: 0.000997 seconds
+Arguments: () {'text': "People without warning signs should call the doctor if the fever lasts more than 24 to 48 hours. Depending on the person's age, other symptoms, and known\xa0...", 'keyword_weights': {'fever': 3, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0.05999999999999996
+-------------------------------------
+2024-09-11 12:30:57 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '31 Mar 2020 — As a general rule, adults should consider seeking medical attention if their temperature reaches above 104 °F (40°C).', 'keyword_weights': {'fever': 3, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-11 12:30:57 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'An adult probably has a fever when the temperature is above 99°F to 99.5°F (37.2°C to 37.5°C), depending on the time of day.', 'keyword_weights': {'fever': 3, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0.05999999999999996
+-------------------------------------
+2024-09-11 12:30:57 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '29 Nov 2021 — A high-grade fever in adults is 103 degrees F or higher. Is it possible that a fever could be a sign of a “breakthrough case” of COVID-19 even if the person is\xa0...', 'keyword_weights': {'fever': 3, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0.6599999999999999
+-------------------------------------
+2024-09-11 12:30:57 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'Fever symptoms may include more than just an increase in body temperature. In adults and children, a temperature of 100.4F (38C) or higher marks a fever.', 'keyword_weights': {'fever': 3, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-11 12:30:57 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': "21 Feb 2023 — A temperature that's higher than 100.4 F (or 38 C) is considered a fever, and it's usually something you should bring to your doctor's attention\xa0...", 'keyword_weights': {'fever': 3, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-11 12:30:57 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': "7 May 2022 — A temperature taken using a mouth thermometer (oral temperature) that's 100 F (37.8 C) or higher is generally considered to be a fever.", 'keyword_weights': {'fever': 3, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-11 12:30:57 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'by JS Trickett · 2021 · Cited by 1 — A 21-year-old White man with Gilbert syndrome presented to the emergency department of Mayo Clinic in Arizona in August 2019 with approximately 10 days of\xa0...', 'keyword_weights': {'fever': 3, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-11 12:30:57 - Function: rate_text_based_on_keywords
+Execution Time: 0.001995 seconds
+Arguments: () {'text': '5 Jan 2022 — Normal temperature in adults · at least 100.4°F (38°C) is a fever · above 103.1°F (39.5°C) is a high fever · above 105.8°F (41°C) is a very high\xa0...', 'keyword_weights': {'fever': 3, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0.6599999999999999
+-------------------------------------
+2024-09-11 12:30:57 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'Consequently, an accurate measurement of body temperature (best is rectal core temperature) of 100.4 F (38 C) or above is considered to be a "fever" and the\xa0...', 'keyword_weights': {'fever': 3, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-11 12:31:00 - Function: extract_text_from_website
+Execution Time: 2.689929 seconds
+Arguments: () {'url': 'https://www.stamfordhealth.org/healthflash-blog/primary-care/fever-in-adults-when-to-worry/'}
+Output: Just a moment...Enable JavaScript and cookies to continue
+-------------------------------------
+2024-09-11 12:31:02 - Function: extract_text_from_website
+Execution Time: 2.649873 seconds
+Arguments: () {'url': 'https://www.medicalnewstoday.com/articles/323819'}
+Output: Normal body temperature: Adults, babies, pregnancy, and more
+Medical News TodayHealth ConditionsHealth ProductsDiscoverToolsConnectSubscribeWhat is normal body temperature for adults, babies, during pregnancy, and all else you need to knowMedically reviewed by Debra Sullivan, Ph.D., MSN, R.N., CNE, COI — Written by Rachel Nall, MSN, CRNA —
+Updated on January 6, 2023Body temperatureAdultsChildrenBabiesDuring pregnancyHow to measureWhat to doWhen to see a doctorWhat affects temperature?Symptoms of a feverSummaryThe average adult body temperature is around 98.6°F (37°C), but individual baseline body temperatures can vary. Factors such as age and activity levels can affect a person’s normal body temperature.The way of measuring temperature may also affect the reading. In this article, we discuss typical temperature ranges for adults, children, and those who are pregnant. We also consider factors affecting body temperature and when to call a doctor.Body temperatureShare on PinterestAnna Efetova/Getty ImagesBody temperature readings vary depending on where a person takes the measurements on the body. For example, rectal temperature readings are higher than oral readings, while armpit readings tend to be lower.Body temperature readings can also vary depending on the following factors:a person’s agethe time of day, typically lowest in the early morning and highest in the late afternoona person’s recent activityfood and fluid intakeNormal temperature in adultsAccording to reviews, the average adult body temperature across all different reading sites is 97.86°F (36.59°C).Researchers also found that the average orally-taken adult body temperature falls between 97.2–98.6°F (36.24–37°C).Average body temperature can vary across demographics. A study of almost 35,500 people found that older adults had the lowest temperatures, and African American women had higher temperatures than white men.The researchers also found that certain medical conditions can affect body temperature. For example, people with an underactive thyroid (hypothyroidism) tended to have lower temperatures, while people with cancer had higher temperatures.Typically, the following temperatures suggest that someone has a fever:at least 100.4°F (38°C) is a feverabove 103.1°F (39.5°C) is a high feverabove 105.8°F (41°C) is a very high feverA fever may be a symptom of COVID-19.Coronavirus resourcesFor more advice on COVID-19 prevention and treatment, visit our coronavirus hub.Normal temperature in childrenThe average body temperature for children is around 97.52°F (36.4°C), but this can vary. As with adults, a temperature above 100.4°F (38°C) may indicate a fever in children.Normal temperature in babiesInfants tend to have higher body temperatures than older children and adults. The average body temperature for newborn babies is around 99.5°F (37.5°C).A baby’s temperature is higher because they have a larger body surface area relative to their body weight. Their bodies are also more metabolically active, which generates heat.Babies’ bodies do not regulate temperature as well as adults’ bodies. They sweat less when it is warm, meaning their bodies hold more heat. It may also be more difficult for them to cool down during a fever.Learn more about fever in babies here.Normal temperatures during pregnancyDuring pregnancy, a person’s basal metabolic rate (BMR) is higher. This means the body produces more heat.One study found that body temperature peaks at 96–99.5°F (35.6–37.5°C) around the 12th week of pregnancy. The average body temperature reaches its lowest point of around 95.5–99.1°F (35.3–37.3°C) just after the 33rd week.How to take your temperatureThere are many types of thermometers available.Digital thermometersDigital thermometers are readily available and can produce accurate temperature results. A person may use these at different parts of the body.Rectal measurement: Specialized digital rectal thermometers are a common option for taking the temperature of young children. A person should clean and lubricate the end of these devices before inserting them into the anus. The device will alert the user when it has made a reading and is safe to remove.Oral measurement: Standard digital thermometers are simple to use orally (by mouth). First, a person must make sure the tip of the device is clean. They will then place this under their tongue toward the back of their mouth and close their lips. The device will produce a reading on an integrated display.Axillary (armpit) measurement: A person can place a digital thermometer at their, or someone else’s, armpit. The arm must then remain tight to the body to ensure a good reading. This is a noninvasive option for taking a child’s temperature.Infrared thermometersInfrared thermometers can take temperature readings at a distance. However, these are not as accurate as other methods. People may use tympanic thermometers to take readings from the ear canal. To use, a person will: insert the device’s tip into their earalign it with their ear canalactivate the device until it produces a resultTemporal thermometers use an infrared signal to measure a person’s temperature. The user will typically hold the thermometer a few centimeters from a person’s forehead and wait for the device to produce a reading.One study concluded that while forehead and ear measurements are viable, nontraumatic screening options for infants, they are still not as accurate as rectal measurements.It is important for people to always follow the instructions on the thermometer package.What to do when body temperature is too low or too highIf a thermometer indicates a person’s body temperature is too high or too low, they may wish to take another reading to confirm the result.In all age ranges, a high temperature may result from short-term illnesses and usually does not cause significant harm in adults with otherwise good overall health.If a person has a high temperature, it is important they rest and drink plenty of fluids to avoid dehydration. These at-home treatments also apply to children and babies.In hot climates, exercise or other physical activity may cause hyperthermia — an abnormally high body temperature. Unlike infection or fever, this is typically the result of outside factors. Moving to a cooler space and taking fluids will usually remedy hyperthermia.However, if a high temperature persists or increases, people should seek medical help.If a person’s temperature is below 95°F (35°C) they have hypothermia and should seek medical assistance.When to contact a doctorThe need for medical assistance can vary between age groups.AdultsIn many cases, a person with a fever will not require medical attention. However, if a person has a temperature of
+or higher, they should contact their doctor.A person should also seek medical assistance if they experience any of the following alongside a fever:dehydrationlightheadednesssevere crampsa persistent, or worsening feverThe following people should also seek medical assistance if they experience fever:recent transplant participantspeople with compromised immune systemsthose on immunosuppressantsthose who have recently undergone cancer treatmentsIf a person’s temperature is over 106.7°F (41.5°C), they have hyperpyrexia, a very high fever. This can lead to permanent organ damage and death. Hyperpyrexia requires urgent medical assistance.If a person’s body temperature is too low, they may have hypothermia. This is a medical emergency, and they should seek assistance immediately. Doctors define hypothermia as a temperature dropping below 95°F (35°C).ChildrenA person should contact emergency services if a child has a temperature over 104°F (40°C). They should also seek medical help if a child has a high temperature that lasts for 5 days or more or is experiencing dehydration, vomiting, or diarrhea.If a child’s temperature drops below 95°F (35°C), medical assistance is essential.BabiesIf an infant 3 months or younger has a temperature of 100.4°F (38°C) or above, seek emergency medical attention. In young babies, a slight fever can signal a serious infection. In babies up to 6 months of age, a temperature of 102.2°F (39°C) or more is also reason to contact emergency services.As with adults and older children, if a baby’s temperature drops below 95°F (35°C), they will require immediate emergency assistance.What causes body temperature to change?An area of the brain called the hypothalamus regulates body temperature. If body temperature rises above or dips below the 98.6°F (37°C) mark, the hypothalamus works to regulate the temperature.If the body is too cold, the hypothalamus sends signals to make the body shiver, which warms the body. If the body is too hot, it sends messages to begin sweating, letting heat leave the body.Infections cause most fevers. A fever develops as the body’s natural way of reacting to and fighting infection.Symptoms of a feverDoctors consider a fever to be a body temperature that reaches or exceeds 100.4°F (38°C). Other symptoms include:appetite losschillsheadacheirritabilitymuscle achesshiveringsweatingweaknessSummaryThe ideal body temperature in adults is around 98.6°F (37°C), but this varies based on age, physical activity, and health. Body temperature also changes throughout the day. A temperature of above 100.4°F (38°C) signals a fever.Babies may have higher body temperatures than adults, but even a slight fever in babies can indicate a severe infection.Temperature readings from different body parts give a range of body temperatures that doctors consider normal. Rectal readings are higher than oral readings, and armpit readings tend to be lower.If a person has an unusually high or low temperature, they should seek medical attention immediately.Read this article in Spanish.Public HealthBiology / BiochemistryImmune System / VaccinesHow we reviewed this article:SourcesMedical News Today has strict sourcing guidelines and relies on peer-reviewed studies, academic research institutions, and medical journals and associations. We only use quality, credible sources to ensure content accuracy and integrity. You can learn more about how we ensure our content is accurate and current by reading our editorial policy.Geneva, I. I., et al. (2019). Normal body temperature: A systematic review.https://academic.oup.com/ofid/article/6/4/ofz032/5435701Green, L. J., et al. (2020). Gestation-specific vital sign reference ranges in pregnancy.https://journals.lww.com/greenjournal/fulltext/2020/03000/gestation_specific_vital_sign_reference_ranges_in.21.aspxFever. (2022).https://www.seattlechildrens.org/conditions/a-z/fever/High temperature (fever) in adults. (2020).https://www.nhs.uk/conditions/fever-in-adults/High temperature (fever) in children. (2020).https://www.nhs.uk/conditions/fever-in-children/How do I take a temperature? (2020).https://www.nhs.uk/common-health-questions/accidents-first-aid-and-treatments/how-do-i-take-someones-temperature/How is body temperature regulated and what is fever? (2016).https://www.ncbi.nlm.nih.gov/books/NBK279457/How to take your baby's temperature. (2020).https://www.nhs.uk/conditions/baby/health/how-to-take-your-babys-temperature/Hypothermia. (2020).https://www.nhs.uk/conditions/hypothermia/Mogensen, C. B., et al. (2018). Forehead or ear temperature measurement cannot replace rectal measurements, except for screening purposes.https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5787302/Obermeyer, Z., et al. (2017). Individual differences in normal body temperature: Longitudinal big data analysis of patient records.https://www.bmj.com/content/359/bmj.j5468.fullSuwanwongse, K, et al. (2020). Hyperpyrexia in patients with Covid-19.https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.26154Treating fever in adults. (2020).https://www.health.harvard.edu/staying-healthy/treating-fever-in-adultsShare this articleMedically reviewed by Debra Sullivan, Ph.D., MSN, R.N., CNE, COI — Written by Rachel Nall, MSN, CRNA —
+Updated on January 6, 2023Latest newsResearchers pinpoint new cardiovascular risk factor, suggest potential treatmentCould potassium levels in blood help diagnose Alzheimer’s early?3 blood biomarkers predict higher risk of heart attack, stroke in womenEating more raw vegetables may help weight loss, reduce heart disease riskHow do keto, Mediterranean diet, or intermittent fasting lead to healthy aging?Related CoverageBody temperature: What is the new normal?A new study finds that the average human body temperature has declined over the last 2 centuries. This may indicate other physiological changes.READ MOREHow to bring down a fever in babiesMedically reviewed by Valinda Riggins Nwadike, MD, MPHA fever in babies can be concerning. In this article, we describe what to do. Learn about treatments, home remedies, and when to seek help.READ MOREFever: What you need to knowMedically reviewed by Kevin Martinez, M.D.A person has a fever when their temperature is higher than 100°F (37°C). Learn about fever types, symptoms, causes, and treatments in this article.READ MOREAbout UsContact UsTerms of UsePrivacy PolicyPrivacy SettingsAdvertising PolicyHealth TopicsHealth HubsMedical AffairsContent IntegrityNewsletters© 2024 Healthline Media UK Ltd, Brighton, UK. All rights reserved. MNT is the registered trade mark of Healthline Media. Healthline Media is an RVO Health Company. Any medical information published on this website is not intended as a substitute for informed medical advice and you should not take any action before consulting with a healthcare professional. See additional information.© 2024 Healthline Media UK Ltd, Brighton, UK. All rights reserved. MNT is the registered trade mark of Healthline Media. Healthline Media is an RVO Health Company. Any medical information published on this website is not intended as a substitute for informed medical advice and you should not take any action before consulting with a healthcare professional. See additional information.AboutCareersAdvertise with usOUR BRANDSHealthlineMedical News TodayGreatistPsych CentralBezzy
+-------------------------------------
+2024-09-11 12:31:04 - Function: extract_text_from_website
+Execution Time: 1.389693 seconds
+Arguments: () {'url': 'https://www.msdmanuals.com/en-in/home/infections/biology-of-infectious-disease/fever-in-adults'}
+Output: Fever in Adults - Fever in Adults - MSD Manual Consumer Versionhoneypot linkBrought to you byabout MSDMSD careersresearchworldwideskip to main contentskip to main contentProfessionalConsumerMSD ManualConsumer VersionHEALTH TOPICSHEALTHY LIVINGSYMPTOMSEMERGENCIESRESOURCESCOMMENTARYABOUT USHEALTH TOPICSHEALTHY LIVINGSYMPTOMS Home/Infections/Biology of Infectious Disease/Fever in Adults/Fever in AdultsByLarry M. Bush, MD, FACP, Charles E. Schmidt College of Medicine, Florida Atlantic
+UniversityReviewed/Revised Jul 2024VIEW PROFESSIONAL VERSIONGET THE QUICK FACTSCauses|Evaluation|Treatment|Essentials for Older People|Key Points|Fever is an elevated body temperature that occurs when the body's thermostat (located in the hypothalamus in the brain) resets at a higher temperature, primarily in response to an infection. Elevated body temperature that is not caused by a resetting of the temperature set point is called hyperthermia. Although 98.6° F (37° C) is considered normal temperature, body temperature varies throughout the day. It is lowest in the early morning and highest in the late afternoon—sometimes reaching 99.9° F (37.7° C). Similarly, a fever does not stay at a constant temperature. Sometimes temperature peaks every day and then returns to normal. This process is called intermittent fever. Alternatively, temperature varies but does not return to normal. This process is called remittent fever. Doctors no longer think that the pattern of the rise and fall of fever is very important in the diagnosis of certain disorders.Body temperature can be measured at several areas of the body. The most common sites are the mouth (oral temperature) and rectum (rectal temperature). Other sites include the ear, forehead, and, much less preferably, armpit. Temperature is typically measured using a digital thermometer. Glass thermometers containing mercury are not recommended because they can break and expose people to mercury.Oral temperatures are considered elevated whenThey are higher than 99° F (37° C) in the early morning.They are higher than 100.4° F (38° C) at any time after the early morning.They are higher than a person’s known normal everyday temperature.Rectal and ear temperatures are about 1.0° F (0.6° C) higher than oral temperatures. Skin temperatures (for example, the forehead) are about 1.0° F (0.6° C) lower than oral temperatures. Many people use the term “fever” loosely, often meaning that they feel too warm, too cold, or sweaty, but they have not actually measured their temperature.The ability to generate a fever is reduced in certain people (for example, those who are very old, very young, or who have an alcohol use disorder).(See also Overview of Infectious Disease and Fever in Infants and Children.)Consequences of feverThe symptoms people have are due mainly to the condition causing the fever rather than the fever itself.Although many people worry that fever can cause harm, the typical temporary elevations in body temperature ranging from 100.4° to 104° F (38° to 40° C) caused by most short-lived (acute) infections are well-tolerated by healthy adults. As one of the body's defenses against an infection, a fever can trigger the production of antibodies and make it more difficult for microorganisms to grow, and may lessen the severity of an infection and help it go away. However, a moderate fever may be slightly dangerous for adults with a heart or lung disorder because fever causes the heart rate and breathing rate to increase. Fever can also worsen mental status in people with dementia.Additionally, an extreme temperature elevation (typically more than 105.8° F, or 41° C) may be damaging. A body temperature this high can cause malfunction and ultimately failure of most organs. Such extreme elevation sometimes results from very severe infection (such as sepsis, malaria, or meningitis) but is more typically caused by heatstroke or use of certain illicit drugs (such as
+or PCP).Fever in healthy children can cause febrile seizures.Causes of Fever in AdultsSubstances that cause fever are called pyrogens. Pyrogens can come from inside or outside the body. Microorganisms and the substances they produce (such as toxins) are examples of pyrogens formed outside the body. Pyrogens formed inside the body are usually produced by 2 types of white blood cells called monocytes and macrophages. Pyrogens from outside the body can cause fever by stimulating the body to release its own pyrogens or by directly affecting the area of the brain that controls temperature.Many disorders can cause fever. They are broadly categorized asInfectious (most common)Neoplastic (cancer)Inflammatory (including autoimmune disorders, allergic reactions, and some drug reactions)An infectious cause is highly likely in adults with a fever that lasts 4 days or less (called an acute fever). An acute fever in people with cancer or a known inflammatory disorder also is most likely to have an infectious cause. In healthy people, an acute fever is unlikely to be the first sign of a chronic illness. A noninfectious cause is more likely to cause fever that lasts a long time or returns. Infectious causesInfections are the most common causes of fever. Infections can be caused by bacteria, viruses, or fungi. Virtually all infections can cause fever, but, overall, the most likely infectious causes are the following:Upper and lower respiratory tract infectionsGastrointestinal infectionsUrinary tract infections (UTIs)Skin infectionsMost acute respiratory tract and gastrointestinal infections are viral.Neoplastic causesMany cancers cause fever, for example, leukemia, lymphoma, and kidney cancer. Inflammatory causesInflammatory disorders that cause fever include systemic rheumatic disorders such as rheumatoid arthritis, systemic lupus erythematosus (lupus), and giant cell arteritis. Fever may also result from an allergic reaction.Medications and drugs sometimes cause fever. For example, beta-lactam antibiotics (such as penicillin) and sulfa medications can trigger a fever. Certain illicit drugs (such as , amphetamines, or phencyclidine) and medications such as anesthetics and antipsychotics can cause an extremely high temperature.Risk factorsCertain factors help doctors determine what is the most likely cause of fever in a person. These factors include the following:The person's health status, age, and occupationHospitalizationUse of certain medications or illicit drugsExposure to infections (for example, through travel or contact with infected people, animals, or insects)Table Some Causes of Fever Based on Risk FactorsRisk FactorCauseNone (healthy)Upper or lower respiratory tract infectionGastrointestinal infectionUrinary tract infectionSkin infectionHospitalizationBloodstream infection related to a catheter inserted in a vein (IV catheter infection)Urinary tract infection, particularly in people with a urinary catheterPneumonia, particularly in people on a ventilatorAtelectasis (collapse of part of a lung due to an airway blockage, rather than an infection)Infection or a pocket of blood (hematoma) at the site of surgeryDeep vein thrombosis or pulmonary embolismDiarrhea (due to Clostridioides difficile–induced colitis)MedicationsTransfusion reactionPressure soresTravel to areas where an infection is common (endemic areas)MalariaViral hepatitisDisorders that cause diarrheaTyphoid feverZika virus, chikungunya, Ebola virus, Japanese encephalitis, rabies, measles, and yellow feverDengue feverFungal infections such as coccidioidomycosis, blastomycosis, or histoplasmosisRickettsial infections (such as African tick-bite fever and Mediterranean spotted fever)Exposure to insects or animals that carry disease-causing organisms, called vectors (in the United States)Ticks: Rickettsiosis, ehrlichiosis or anaplasmosis, Lyme disease, babesiosis, relapsing fever, or tularemiaMosquitoes: Encephalitis caused by arboviruses, malaria, or Zika virus infection; yellow feverWild animals: Tularemia, rabies, or hantavirus infectionFleas: PlagueDomestic animals: Brucellosis, cat-scratch disease, Q fever, or toxoplasmosisBirds: Psittacosis, bird fluReptiles: Salmonella infectionBats: Rabies or histoplasmosisA weakened immune system (immunocompromise)Viruses: Varicella-zoster virus infection or cytomegalovirus infectionBacteria: Infection due to pneumococci, meningococci, Staphylococcus aureus, Pseudomonas aeruginosa, Nocardia, or mycobacteriaFungi: Infection due to Candida, Aspergillus, Histoplasma, Coccidioides, microsporidia, Pneumocystis jirovecii, or fungi that cause mucormycosisParasites: Infection due to Toxoplasma gondii, Strongyloides stercoralis, Cryptosporidium, or Cystoisospora belliMedications and illicit drugs that can alter body temperatureAmphetaminesPhencyclidine (PCP)Methylenedioxymethamphetamine (MDMA, or Ecstasy)Antipsychotic medications (can cause neuroleptic malignant syndrome)Anesthetics (inhaled anesthetic gases such as halothane can cause malignant hyperthermia)ThyroxineInterferons (medications that are based on substances produced by the immune system and that help block the reproduction of viruses)Medications that can trigger fever by a hypersensitivity (allergic) reactionBeta-lactam antibiotics (such as penicillin)Sulfa drugsPhenytoinCarbamazepineProcainamideQuinidineEvaluation of Fever in AdultsUsually, a doctor can determine that an infection is present based on a brief history, a physical examination, and occasionally a few simple tests, such as a chest x-ray and urine tests. However, sometimes the cause of fever is not readily identified.When doctors initially evaluate people with an acute fever, they focus on 2 general issues:Identifying other symptoms such as headache or cough: These symptoms help narrow the range of possible causes.Determining whether the person is seriously or chronically ill: Many of the possible acute viral infections go away on their own and also are difficult for doctors to diagnose specifically (that is, to determine exactly which virus is causing the infection). Limiting testing to people who are seriously or chronically ill can help avoid many expensive, unnecessary, and often fruitless searches.Warning signsIn people with an acute fever, certain signs and characteristics are cause for concern. They includeA change in mental function, such as confusionA headache, stiff neck, or bothFlat, small, purplish red spots on the skin (petechiae), which indicate bleeding under the skinLow blood pressureRapid heart rate or rapid breathingShortness of breath (dyspnea)A temperature that is higher than 104° F (40° C) or lower than 95° F (35° C)Recent travel to an area where a serious infectious disease such as malaria is commonRecent use of medications that suppress the immune system (immunosuppressants)When to see a doctorPeople who have any warning signs should see a doctor right away. Such people typically need immediate testing and often admission to a hospital.People without warning signs should call the doctor if the fever lasts more than 24 to 48 hours. Depending on the person's age, other symptoms, and known medical conditions, the doctor may ask the person to come for evaluation or recommend treatment at home. Typically, people should see a doctor if a fever lasts more than 3 or 4 days regardless of other symptoms.What the doctor doesDoctors first ask questions about the person's symptoms and medical history. Doctors then do a physical examination. What they find during the history and physical examination often suggests a cause of the fever and the tests that may need to be done.A doctor begins by asking a person about present and previous symptoms and disorders, medications currently being taken, any blood transfusions, exposure to infections, recent travel, vaccinations, and recent hospitalizations, surgeries, or other medical procedures. The pattern of the fever rarely helps the doctor make a diagnosis. However, a fever that returns every other day or every third day is typical of malaria. Doctors consider malaria and other insect-transmitted infections as a possible cause only if people have traveled to an area where the infection is common.Recent travel may give the doctor clues as to the cause of a fever because some infections occur in certain areas. For example, coccidioidomycosis (a fungal infection) occurs mostly in the southwestern United States.Recent exposures are also important. For example, people who work in a meatpacking plant are more likely to develop brucellosis (a bacterial infection spread through contact with domestic animals). Other examples include unsafe water or food (such as unpasteurized milk and milk products, and raw or undercooked meat, fish, and shellfish), insect (such as mosquitoes) and tick bites, unprotected sex, and occupational or recreational exposures (such as hunting, hiking, and water sports).Pain is an important clue to the possible source of fever, so the doctor asks about any pain in the ears, head, neck, teeth, throat, chest, abdomen, flank, rectum, muscles, and joints.Other symptoms that help determine the cause of the fever include nasal congestion and/or discharge, cough, diarrhea, and urinary symptoms (frequency, urgency, and pain while urinating). Knowing whether the person has enlarged lymph nodes or a rash (including what it looks like, where it is, and when it appeared in relation to other symptoms) may help the doctor pinpoint a cause. People with recurring fevers, night sweats, and weight loss may have a chronic infection such as tuberculosis or endocarditis (infection of the heart's lining and usually the heart valves).The doctor may also ask about the following:Contact with anyone who has an infectionAny known conditions that predispose to infection, such as HIV infection, diabetes, cancer, organ transplantation, sickle cell disease, use of an artificial pacemaker, or heart valve disorders, particularly if an artificial valve is presentAny known disorders that may cause a fever without infection, such as lupus, gout, sarcoidosis, an overactive thyroid gland (hyperthyroidism), or cancerUse of any medications that may make a person susceptible to infection, such as cancer chemotherapy, corticosteroids, or other medications that suppress the immune systemUse of illicit drugs that are injectedThe physical examination begins with confirmation of fever. Fever is most accurately determined by measuring rectal temperature, but oral or ear temperature is often measured. Forehead temperature is not as accurate as rectal, but doctors may measure forehead temperature to screen people for fever. Armpit temperature is the least accurate, so doctors rarely use it to confirm a fever. Doctors then do a thorough examination from head to toe to check for a source of infection or evidence of disease.TestingThe need for testing depends on what the doctor finds during the medical history and physical examination.Otherwise healthy people who have an acute fever and only vague, general symptoms (for example, they feel generally ill or achy) probably have a viral illness that will go away without treatment. Therefore, they do not usually require testing. Exceptions are people who are in an area where COVID-19 is being spread, people who have been exposed to an animal or insect that carries and transmits a specific disease (called a vector), such as people with a tick bite, and people who have recently been in an area where a particular disorder (such as malaria) is common.If otherwise healthy people have findings that suggest a particular disorder, testing may be needed. Doctors select tests based on those findings. For example, if people have a headache and stiff neck, a spinal tap (lumbar puncture) is done to look for meningitis. If people have a cough and lung congestion, a chest x-ray is done to look for pneumonia. For certain respiratory diseases, such as COVID-19 or influenza, there are rapid molecular tests that can give results within minutes or a few hours. Some rapid tests can be done at home or in a doctor's office on a sample obtained with a cotton swab. Other rapid tests to identify a specific cause of an infection require a blood sample sent to a laboratory.People who are at increased risk of infection, people who appear seriously ill, and older adults often need testing even when findings do not suggest a particular disorder. For such people, doctors may do the following:A complete blood count (including the number and proportion of different types of white blood cells)Urine and blood culturesA chest x-rayUrinalysisLab TestComplete Blood CountLab TestUrinalysisAn increase in the white blood cell count usually indicates infection. The proportion of different types of white blood cells (differential count) gives further clues. For example, an increase in neutrophils suggests a relatively new bacterial infection. An increase in eosinophils suggests the presence of parasites, such as tapeworms or roundworms. Also, blood, urine, and other body fluids may be sent to the laboratory to try to grow the microorganism in a culture. Other blood tests can be used to detect antibodies against specific microorganisms.Fever of unknown origin (FUO)A fever of unknown origin may be diagnosed when People have a fever of at least 101° F (38.3° C) for several weeks.Extensive investigation does not detect a cause.In such cases, the cause may be an unusual chronic infection (such as tuberculosis, bacterial infection of the heart, HIV infection, cytomegalovirus, or Epstein-Barr virus) or something other than an infection, such as a systemic rheumatic disorder (such as lupus or rheumatoid arthritis) or cancer (such as lymphoma, ovarian cancer, or leukemia). Other causes include medication or illicit drug reactions, blood clots (deep vein thrombosis), inflammation of organ tissues (sarcoidosis), and inflammatory bowel disease.In older adults, the most common causes of FUO are giant cell arteritis, lymphomas, abscesses, and tuberculosis.Doctors usually do blood tests, including a complete blood count, blood cultures, liver blood tests, and tests to check for systemic rheumatic disorders. Other tests, such as chest x-ray, urinalysis, and urine culture, may be done.Lab TestBacteria Culture TestUltrasound studies, computed tomography (CT), or magnetic resonance imaging (MRI), particularly of areas that are causing discomfort, may help a doctor diagnose the cause. Radionuclide scanning, done after white blood cells labeled with a radioactive marker are injected into a vein, or positron emission tomography (PET) may be used to identify areas of infection or inflammation.If these test results are negative, doctors may need to take a sample of tissue from the liver, bone marrow, or another site of suspected infection for biopsy. The sample is then examined under a microscope, cultured, and analyzed.The treatment of FUO is focused on treating the disorder causing the fever if it is known. Doctors may give medications to lower the body temperature (see treatment of fever).Treatment of Fever in AdultsThe best fever treatment is treatment of the cause.Because fever helps the body defend against infection and because fever itself is not dangerous (unless it is higher than about 106° F [41° C]), there is some debate as to whether fever should be routinely treated. However, people with a high fever generally feel much better when the fever is treated. Plus, people with a heart or lung disorder and those with dementia are considered to be at particular risk of dangerous complications, so when they have a fever, it should be treated.Medications used to lower body temperature are called antipyretics.Because many over-the-counter cold or flu preparations contain acetaminophen, people must be careful not to take acetaminophen and one or more of these cold or flu preparations at the same time.Other cooling measures (such as cooling with a tepid water mist and using cooling blankets) are needed only if the temperature is about 106° F (41.1° C) or higher. People should not apply rubbing alcohol to their skin with a washcloth or sponge because alcohol can be absorbed through the skin and may have harmful effects.People who have a blood infection (bacteremia) or who have abnormal vital signs (such as low blood pressure and a rapid pulse and breathing rate) are admitted to the hospital.Essentials for Older People: FeverFever can be tricky in older people because the body may not respond the way it would in younger people. For example, in frail older adults, infection is less likely to cause fever. Even when elevated by infection, the temperature may be lower than the standard definition of fever, and the degree of fever may not correspond to the severity of the illness. Similarly, other symptoms, such as pain, may be less noticeable. Frequently, a change in mental function or a decline in daily functioning is the only other initial sign of pneumonia or a urinary tract infection.However, older adults with a fever are more likely to have a serious bacterial infection than are younger adults with a fever. As in younger adults, the cause is commonly a respiratory or urinary tract infection. Skin and soft-tissue infections are also common causes of fever in older adults. Older adults are more likely to have serious manifestations of respiratory viral infections such as influenza, COVID-19, and respiratory syncytial virus (RSV).Diagnosis of fever in older adults is similar to that for younger adults, except that for older adults, doctors usually recommend urine tests (including culture) and a chest x-ray. Samples of blood are cultured to rule out a blood infection (bacteremia).Key PointsMost fevers in healthy people are caused by a respiratory or gastrointestinal infection due to a virus.If people with a fever have any warning signs, they should see a doctor right away.Doctors can usually identify an infection based on a brief medical history, a physical examination, and occasionally a few simple tests, and then doctors use these results, particularly symptoms, to determine which other tests are needed.Doctors consider underlying chronic disorders, particularly those that impair the immune system, as a possible cause of fever that lasts a long time.In older adults, infections are less likely to cause fever, and other symptoms may be less noticeable.Test your KnowledgeTake a Quiz!
+Copyright © 2024
+Merck & Co., Inc., Rahway, NJ, USA and its affiliates. All rights reserved.AboutDisclaimerCookie PreferencesCopyright© 2024Merck & Co., Inc., Rahway, NJ, USA and its affiliates. All rights reserved.About Disclaimer Permissions Privacy Cookie Preferences Terms of use Licensing Contact Us Global Medical Knowledge Veterinary Manual Mobile App Copyright© 2024Merck & Co., Inc., Rahway, NJ, USA and its affiliates. All rights reserved.Find In Topic
+-------------------------------------
+2024-09-11 12:31:04 - Function: get_prompt
+Execution Time: 0.436163 seconds
+Arguments: () {'filename': 'cure.txt'}
+Output: answer the user query based on the given context return the response in json format{disease:string response,cure:string resonse,reasons:[list of reasons]}  query:{query}   context:{context}
+-------------------------------------
+2024-09-11 12:31:06 - 127.0.0.1 - - [11/Sep/2024 12:31:06] "POST /chat/result HTTP/1.1" 200 -
+2024-09-11 12:31:17 - 127.0.0.1 - - [11/Sep/2024 12:31:17] "OPTIONS /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:31:17 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information 
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 12:31:18 - 127.0.0.1 - - [11/Sep/2024 12:31:18] "POST /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:31:18 - 127.0.0.1 - - [11/Sep/2024 12:31:18] "OPTIONS /chat/result HTTP/1.1" 200 -
+2024-09-11 12:31:18 - Function: get_prompt
+Execution Time: 0.000998 seconds
+Arguments: () {'filename': 'llm_query.txt'}
+Output: {query}: change given text into a Google-searchable query(so that i can search the disease on google also make it so that user can find cure for it ) and also give a list of keywords in that query that will help me find relatable articles,dont return keywords that are not in query. Return these in a JSON format, example: {{ 'query': 'new generated query' , 'keywords' : ['keywords'] }}
+-------------------------------------
+2024-09-11 12:31:19 - Function: llm_query
+Execution Time: 1.286218 seconds
+Arguments: () {'query': "Q: How can I help you today?\nA: Hello\nQ: What's the problem you're facing?\nA: Hello\nQ: Have you eaten anything that might have been bad?\nA: hello\nQ: What are your symptoms?\nA: hello\nQ: Please tell me what symptoms you are experiencing.\nA: hello\nQ: Please describe the symptoms you are experiencing.\nA: I have fever\nQ: What is your name?\nA: Nimrit\nQ: What is your gender?\nA: Male\nQ: How old are you?\nA: 21\nQ: Did you eat anything that might have been bad?\nA: I have fever,dizziness,nausea\n"}
+Output: {'query': 'fever dizziness nausea male 21 years old', 'keywords': ['fever', 'dizziness', 'nausea', 'male', '21 years old']}
+-------------------------------------
+2024-09-11 12:31:19 - Function: calculate_keyword_weights
+Execution Time: 0.000000 seconds
+Arguments: () {'keywords': ['fever', 'dizziness', 'nausea', 'male', '21 years old']}
+Output: {'fever': 3, 'dizziness': 4, 'nausea': 4, 'male': 3, '21 years old': 3, '21': 1, 'years': 1, 'old': 1}
+-------------------------------------
+2024-09-11 12:31:19 - Function: search_google
+Execution Time: 0.000000 seconds
+Arguments: ('fever dizziness nausea male 21 years old',) {'num_results': 10, 'advanced': True}
+Output: <generator object search at 0x0000026ADA1712D0>
+-------------------------------------
+2024-09-11 12:31:22 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '31 Jul 2022 — Possible causes of dizziness include vertigo, dehydration, hypoglycemia, and neurological conditions. Lifestyle changes and medications are among the most\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'nausea': 4, 'male': 3, '21 years old': 3, '21': 1, 'years': 1, 'old': 1}}
+Output: 0
+-------------------------------------
+2024-09-11 12:31:22 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': "11 Sept 2023 — If you're wondering why else you may be dizzy, tired, weak, or nauseous, some possible causes are migraines, anxiety, or motion sickness.", 'keyword_weights': {'fever': 3, 'dizziness': 4, 'nausea': 4, 'male': 3, '21 years old': 3, '21': 1, 'years': 1, 'old': 1}}
+Output: 0
+-------------------------------------
+2024-09-11 12:31:22 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '24 Jul 2023 — Dizziness is a feeling of being unsteady or weak, but can refer to different sensations including vertigo and feeling faint.', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'nausea': 4, 'male': 3, '21 years old': 3, '21': 1, 'years': 1, 'old': 1}}
+Output: 0
+-------------------------------------
+2024-09-11 12:31:22 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '26 Oct 2020 — Feeling dizzy and nauseous are symptoms that often appear together. They are typical of several conditions, including migraine headaches and stomach upsets.', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'nausea': 4, 'male': 3, '21 years old': 3, '21': 1, 'years': 1, 'old': 1}}
+Output: 0
+-------------------------------------
+2024-09-11 12:31:22 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '30 Dec 2022 — Skipping a meal causes low blood sugar. Fever; Motion Sickness. Main symptoms are dizziness and nausea. Viral Syndrome. Patients with viral\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'nausea': 4, 'male': 3, '21 years old': 3, '21': 1, 'years': 1, 'old': 1}}
+Output: 0
+-------------------------------------
+2024-09-11 12:31:22 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'Cyclic vomiting syndrome is when you experience cycles of severe nausea, vomiting and exhaustion that can last from a few hours up to a few days.', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'nausea': 4, 'male': 3, '21 years old': 3, '21': 1, 'years': 1, 'old': 1}}
+Output: 0
+-------------------------------------
+2024-09-11 12:31:22 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'This can happen if there is a sudden drop in your blood pressure or you are dehydrated from vomiting, diarrhea, fever, or other causes.', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'nausea': 4, 'male': 3, '21 years old': 3, '21': 1, 'years': 1, 'old': 1}}
+Output: 0
+-------------------------------------
+2024-09-11 12:31:22 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'Meningitis and septicaemia: the symptoms to watch out for in teenagers and young adults ; Meningitis symptoms - Fever and/or Vomiting. Fever and / or vomiting.', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'nausea': 4, 'male': 3, '21 years old': 3, '21': 1, 'years': 1, 'old': 1}}
+Output: 0
+-------------------------------------
+2024-09-11 12:31:22 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'The main symptoms of cyclic vomiting syndrome are sudden, repeated attacks—called episodes—of severe nausea and vomiting. You may vomit several times an hour.', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'nausea': 4, 'male': 3, '21 years old': 3, '21': 1, 'years': 1, 'old': 1}}
+Output: 0
+-------------------------------------
+2024-09-11 12:31:22 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '29 Feb 2024 — It sickens up to 21 million people around the world each year. Children are more likely to get it than adults. Typhoid fever vs. typhus.', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'nausea': 4, 'male': 3, '21 years old': 3, '21': 1, 'years': 1, 'old': 1}}
+Output: 0
+-------------------------------------
+2024-09-11 12:31:22 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'cure.txt'}
+Output: answer the user query based on the given context return the response in json format{disease:string response,cure:string resonse,reasons:[list of reasons]}  query:{query}   context:{context}
+-------------------------------------
+2024-09-11 12:31:23 - 127.0.0.1 - - [11/Sep/2024 12:31:23] "POST /chat/result HTTP/1.1" 200 -
+2024-09-11 12:31:39 - 127.0.0.1 - - [11/Sep/2024 12:31:39] "GET /chat/session HTTP/1.1" 200 -
+2024-09-11 12:31:47 - 127.0.0.1 - - [11/Sep/2024 12:31:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-11 12:34:08 - 127.0.0.1 - - [11/Sep/2024 12:34:08] "OPTIONS /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:34:09 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information 
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 12:34:09 - 127.0.0.1 - - [11/Sep/2024 12:34:09] "POST /chat/diagnosis HTTP/1.1" 200 -
+2024-09-11 12:40:23 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-11 12:40:23 - [33mPress CTRL+C to quit[0m
+2024-09-11 12:40:23 -  * Restarting with stat
+2024-09-11 12:40:26 -  * Debugger is active!
+2024-09-11 12:40:26 -  * Debugger PIN: 267-555-874
+2024-09-11 12:56:36 -  * Detected change in 'D:\\P.Projex\\hackathons\\medicorenamit\\Medicore-AI\\backend\\app\\chat.py', reloading
+2024-09-11 12:56:36 -  * Restarting with stat
+2024-09-11 12:56:46 -  * Debugger is active!
+2024-09-11 12:56:46 -  * Debugger PIN: 267-555-874
+2024-09-11 13:16:34 - 127.0.0.1 - - [11/Sep/2024 13:16:34] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:16:34 - Function: get_prompt
+Execution Time: 0.001996 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:16:37 - 127.0.0.1 - - [11/Sep/2024 13:16:37] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:19:14 -  * Detected change in 'D:\\P.Projex\\hackathons\\medicorenamit\\Medicore-AI\\backend\\app\\chat.py', reloading
+2024-09-11 13:19:15 -  * Restarting with stat
+2024-09-11 13:19:31 -  * Debugger is active!
+2024-09-11 13:19:31 -  * Debugger PIN: 267-555-874
+2024-09-11 13:19:41 - 127.0.0.1 - - [11/Sep/2024 13:19:41] "GET /chat/session HTTP/1.1" 200 -
+2024-09-11 13:19:43 - 127.0.0.1 - - [11/Sep/2024 13:19:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-11 13:20:02 - 127.0.0.1 - - [11/Sep/2024 13:20:02] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:20:02 - Function: get_prompt
+Execution Time: 0.023503 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:20:05 - 127.0.0.1 - - [11/Sep/2024 13:20:05] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:22:56 - 127.0.0.1 - - [11/Sep/2024 13:22:56] "GET /chat/session HTTP/1.1" 200 -
+2024-09-11 13:23:08 - 127.0.0.1 - - [11/Sep/2024 13:23:08] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:23:08 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:23:09 - 127.0.0.1 - - [11/Sep/2024 13:23:09] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:23:15 - 127.0.0.1 - - [11/Sep/2024 13:23:15] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:23:15 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:23:16 - 127.0.0.1 - - [11/Sep/2024 13:23:16] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:23:19 - Function: get_prompt
+Execution Time: 0.000997 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:23:20 - 127.0.0.1 - - [11/Sep/2024 13:23:20] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:23:24 - 127.0.0.1 - - [11/Sep/2024 13:23:24] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:23:24 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:23:25 - 127.0.0.1 - - [11/Sep/2024 13:23:25] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:23:51 - 127.0.0.1 - - [11/Sep/2024 13:23:51] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:23:52 - Function: get_prompt
+Execution Time: 0.000996 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:23:53 - 127.0.0.1 - - [11/Sep/2024 13:23:53] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:24:02 - 127.0.0.1 - - [11/Sep/2024 13:24:02] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:24:02 - Function: get_prompt
+Execution Time: 0.001022 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:24:03 - 127.0.0.1 - - [11/Sep/2024 13:24:03] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:24:03 - 127.0.0.1 - - [11/Sep/2024 13:24:03] "OPTIONS /chat/result HTTP/1.1" 200 -
+2024-09-11 13:24:03 - Function: get_prompt
+Execution Time: 0.001996 seconds
+Arguments: () {'filename': 'llm_query.txt'}
+Output: {query}: change given text into a Google-searchable query(so that i can search the disease on google also make it so that user can find cure for it ) and also give a list of keywords in that query that will help me find relatable articles,dont return keywords that are not in query. Return these in a JSON format, example: {{ 'query': 'new generated query' , 'keywords' : ['keywords'] }}
+-------------------------------------
+2024-09-11 13:24:04 - Function: llm_query
+Execution Time: 1.131785 seconds
+Arguments: () {'query': 'Q: How can I help you today?\nA: I have ever\nQ: What is your name?\nA: nimrit\nQ: What is your age?\nA: 21\nQ: What is your gender?\nA: male\nQ: What problem are you facing?\nA: i have a fever and some headache in the back of my head\nQ: Have you eaten anything that might have been bad recently?\nA: no\n'}
+Output: {'query': 'fever and headache in the back of the head causes', 'keywords': ['fever', 'headache', 'back of the head']}
+-------------------------------------
+2024-09-11 13:24:05 - Function: calculate_keyword_weights
+Execution Time: 0.399369 seconds
+Arguments: () {'keywords': ['fever', 'headache', 'back of the head']}
+Output: {'fever': 3, 'headache': 4, 'back of the head': 2, 'head': 1}
+-------------------------------------
+2024-09-11 13:24:05 - Function: search_google
+Execution Time: 0.000000 seconds
+Arguments: ('fever and headache in the back of the head causes',) {'num_results': 10, 'advanced': True}
+Output: <generator object search at 0x00000184E83908B0>
+-------------------------------------
+2024-09-11 13:24:08 - Function: rate_text_based_on_keywords
+Execution Time: 0.001085 seconds
+Arguments: () {'text': '21 Jun 2019 — Headache and fever could be caused by a number of medical issues, including cold and flu, infections, and other more serious conditions.', 'keyword_weights': {'fever': 3, 'headache': 4, 'back of the head': 2, 'head': 1}}
+Output: 0.2250000000000001
+-------------------------------------
+2024-09-11 13:24:08 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '4 Oct 2018 — A headache combined with a fever or a stiff neck may indicate encephalitis or meningitis. Encephalitis is inflammation of the brain.', 'keyword_weights': {'fever': 3, 'headache': 4, 'back of the head': 2, 'head': 1}}
+Output: 1.525
+-------------------------------------
+2024-09-11 13:24:08 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'Some headache symptoms occur specifically in the back of the head. Possible causes include tension, migraine, and medication overuse.', 'keyword_weights': {'fever': 3, 'headache': 4, 'back of the head': 2, 'head': 1}}
+Output: 0.55
+-------------------------------------
+2024-09-11 13:24:08 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '26 Sept 2023 — Headache with a fever ... In the past, experts thought tension-type headaches were caused by muscle contractions in the face, neck and scalp.', 'keyword_weights': {'fever': 3, 'headache': 4, 'back of the head': 2, 'head': 1}}
+Output: 0.2250000000000001
+-------------------------------------
+2024-09-11 13:24:08 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': "If you have a sore throat, headache and a fever, then you probably have an infection. A fever is your body's way of fighting infection. The combination of fever\xa0...", 'keyword_weights': {'fever': 3, 'headache': 4, 'back of the head': 2, 'head': 1}}
+Output: 2.275
+-------------------------------------
+2024-09-11 13:24:08 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '30 Dec 2022 — Viral Illnesses. Most acute headaches are part of a viral illness. Flu is a common example. These headaches may relate to the level of fever.', 'keyword_weights': {'fever': 3, 'headache': 4, 'back of the head': 2, 'head': 1}}
+Output: 0
+-------------------------------------
+2024-09-11 13:24:08 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '9 Aug 2024 — Having both a fever and headache can be signs of an infectious or non-infectious condition. Some illnesses may be mild, such as the common cold.', 'keyword_weights': {'fever': 3, 'headache': 4, 'back of the head': 2, 'head': 1}}
+Output: 1.525
+-------------------------------------
+2024-09-11 13:24:08 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '25 Aug 2021 — A headache with a fever usually indicates you have some type of infection, which could be a run-of-the-mill sinus infection or something more serious.', 'keyword_weights': {'fever': 3, 'headache': 4, 'back of the head': 2, 'head': 1}}
+Output: 1.525
+-------------------------------------
+2024-09-11 13:24:08 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '31 Dec 2023 — Emergency Causes of Headaches · Acute hydrocephalus, which results from an interruption of cerebrospinal fluid flow. · Blood pressure that is very\xa0...', 'keyword_weights': {'fever': 3, 'headache': 4, 'back of the head': 2, 'head': 1}}
+Output: 0
+-------------------------------------
+2024-09-11 13:24:08 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'What are causes and risk factors for a fever with a headache? · Influenza (flu) · Colds, although the fever is generally mild and may not be present · Meningitis\xa0...', 'keyword_weights': {'fever': 3, 'headache': 4, 'back of the head': 2, 'head': 1}}
+Output: 0.9750000000000001
+-------------------------------------
+2024-09-11 13:24:09 - Function: extract_text_from_website
+Execution Time: 1.418079 seconds
+Arguments: () {'url': 'https://my.clevelandclinic.org/health/symptoms/21475-sore-throat-and-headache'}
+Output: Sore Throat & Headache: Causes & Treatment Locations:Abu Dhabi|Canada|Florida|London|Nevada|Ohio|800.223.2273100 Years of Cleveland ClinicMyChartNeed Help?GivingCareersSearchClevelandClinic.orgFind A DoctorLocations & DirectionsPatients & VisitorsHealth LibraryInstitutes & DepartmentsAppointmentsHome/Health Library/Symptoms/Sore Throat and HeadacheAdvertisementAdvertisementSore Throat and HeadacheSore throat and headache are common symptoms of several conditions. Along with sore throat and headache, you may have fever or fatigue. These signs may indicate an infection. Sore throat and headache usually go away on their own after about a week. But talk to your provider if you have signs of strep throat or meningitis, which need treatment.ContentsArrow DownOverviewPossible CausesCare and TreatmentWhen To Call the DoctorContentsArrow DownOverviewPossible CausesCare and TreatmentWhen To Call the DoctorOverviewWhat is a headache with a sore throat?Most people get headaches many times during their lives. A headache causes pain in your head or face. The pain may be throbbing, sharp or dull.A sore throat (pharyngitis) is pain or irritation in your throat. It might feel scratchy, painful or dry. It often hurts more when you swallow.Sometimes, you have both a headache and sore throat. Most often, an infection causes those symptoms to happen together.AdvertisementCleveland Clinic is a non-profit academic medical center. Advertising on our site helps support our mission. We do not endorse non-Cleveland Clinic products or services. PolicyWhat if I also have a fever with a headache and sore throat?If you have a sore throat, headache and a fever, then you probably have an infection. A fever is your body’s way of fighting infection.The combination of fever, sore throat and headache could be due to:Influenza (the flu).Mononucleosis (mono).Strep throat.How common are symptoms like headache and sore throat?Sore throat and headaches are common symptoms. Almost everyone will experience these symptoms at least once in their life.AdvertisementPossible CausesWhat tests will I need?Most of the time, your healthcare provider will diagnose you based on your symptoms and a physical exam. You may need a throat swab to diagnose strep throat. Your healthcare provider uses a stick with a cotton swab at the end to take a throat sample. They analyze the sample for bacteria to see if you have an infection.You may need other tests, such as a blood test or imaging scans, to rule out other infections.What causes headache and sore throat?Many conditions can cause you to get both a headache and sore throat. You could have both of these discomforts due to a:Viral infection, such as:Common cold and other upper respiratory infections.Flu.Mononucleosis.Bacterial infection, including:Bacterial meningitis.Strep throat.Other conditions, such as:Allergies, which may also cause watery, itchy eyes and sneezing.Tonsillitis, when tonsils become inflamed due to bacteria or a virus.Peritonsillar abscess, a complication of tonsillitis.Rarely, your headache and sore throat may be from:Early signs of HIV infection.Head and neck cancer.Lemierre’s syndrome, a life-threatening complication of a bacterial throat infection.Secondary stage of syphilis, a sexually transmitted infection.AdvertisementIs my sore throat and headache due to a viral or a bacterial infection?If you have both a headache and sore throat, it could be a viral or bacterial infection. They have similar symptoms.If you have a runny nose, cough and hoarse voice, you most likely have a viral rather than bacterial infection. There are no medications to treat viral infections. The virus will go away on its own. You usually feel better in about a week.If it’s bacterial, your healthcare provider may prescribe antibiotics, such as penicillin.What are the symptoms of sore throat and headache?When you have a sore throat, you may have:Pain or scratchiness in your throat.Pain that’s worse when you speak or swallow.Hoarse voice.Swollen lymph nodes in the neck (you may be able to feel small lumps on the side of your neck).Red or swollen tonsils with white spots on them.Your headache symptoms may include pain that:Comes on slowly.Feels dull and aching.Affects both sides of your head.It’s also not unusual to have fatigue with sore throat and headache. Fatigue, chills and muscle aches are all symptoms of viral and bacterial infections.Care and TreatmentWhat is the treatment for sore throat and headache?Usually, you can treat sore throat and headache with at-home remedies. If you have strep throat, your provider will prescribe antibiotics to get rid of it. Take all the medicine, even though you’ll start to feel better within a day or two.At-home treatments for sore throat and headache include:Fluids, especially water, tea with honey, soup or broth.Throat lozenges or ice cubes.Warm saltwater gargle.Over-the-counter medications, such as acetaminophen, ibuprofen and nonsteroidal anti-inflammatory drugs (NSAIDs).Humidifier or shower.Cool compress on your head.Plenty of rest.If your child has a headache and sore throat, remember:Choose the right medication: Don’t give aspirin to young children. It may cause a life-threatening condition called Reye’s syndrome. Make sure to choose pain relievers made for infants and children.Avoid hard candies: Lozenges or other hard candies can be a choking hazard for young children.Don’t give honey to babies: Avoid giving honey to infants under a year old. Babies don’t have defenses against infant botulism.Can I prevent a sore throat and headache?The best way to prevent sore throat and headache is to avoid infections and illness. Tips include:Wash hands often: Always wash hands after going to the bathroom or changing a diaper and before eating or preparing food.Don’t share: Don’t share food, water bottles, glasses or other eating utensils.Use good cough hygiene: When coughing or sneezing, use a tissue. If you don’t have a tissue, use the crook of your elbow. Don’t cough or sneeze into your hand.Stay home if you’re sick: Isolate yourself as much as you can until you feel better. And be around other people who are not feeling well.Avoid allergy triggers: Take precautions to avoid your allergy triggers. Allergies can cause coughing and sneezing.Practice safe sex: Use a condom or dental dam to avoid sexually transmitted infections.Avoid tobacco and alcohol products: Try to stay away from cigarettes and limit alcohol. These products increase your risk of developing head and neck cancers.What’s the outlook for people with sore throat and headache?A sore throat and headache can usually go away within a week. Most of the time, you won’t need medical treatment. There are usually no long-term complications.If you do have strep throat, make sure to take the full course of antibiotics. These drugs treat the infection and prevent complications, including rheumatic fever.Care at Cleveland ClinicFind a Primary Care ProviderSchedule an AppointmentWhen To Call the DoctorWhen should I see a healthcare provider about headache and sore throat?You can try at-home sore throat and headache remedies. But see a healthcare provider if your symptoms last for more than a week, or if they go away but come back.You should also see a provider if you have these symptoms along with your sore throat and headache:High fever (above 103 degrees F for adults or 104 degrees F for children).Stiff neck.Dehydration.Difficulty breathing.Excessive drooling (in babies or young children).Nausea or vomiting.Swelling in the face or neck or a large lump in the neck.Trouble swallowing.Unexplained rash.Acting confused.You should also be on the lookout for signs of meningitis. This life-threatening condition has flu-like symptoms. If you or your child has signs of meningitis, seek immediate medical help.Meningitis symptoms include:Sudden high fever.Severe headache.Stiff neck (trouble moving neck up and down).Nausea and vomiting.Rash.Sensitivity to light.Fatigue, feeling sleepy.Confusion.When can I go back to work or school?If you have a sore throat or headache, wait until you have been symptom-free for at least 24 hours before returning to work. Your child should stay home from school or day care until they have been symptom-free for 24 hours.If you have strep throat, you can usually return to work or school once the fever is gone and you have taken antibiotics for at least 24 hours.What else should I ask my healthcare provider?If you have a sore throat and headache, ask your healthcare provider:Do I need any tests?Could these symptoms be a sign of an infection?What can I do to feel better?What should I do if the symptoms don’t go away in a week?What medications can I take to help?Do I need a strep test?Will antibiotics help?Sore throat and headache are common symptoms. Often, they’re signs of a viral or bacterial infection. For a viral infection, you most likely won’t need medications. The virus will clear up on its own in about a week. Make sure to drink plenty of fluids. You can take over-the-counter pain relievers to feel better. Your healthcare provider may want to check for signs of strep throat or meningitis, which need treatment. If you have a sudden high fever, neck stiffness or other worrying symptoms, see your healthcare provider.Medically ReviewedLast reviewed on 02/12/2021.Learn more about our editorial process.ReferencesAdvertisementCleveland Clinic is a non-profit academic medical center. Advertising on our site helps support our mission. We do not endorse non-Cleveland Clinic products or services. PolicyCare at Cleveland ClinicFind a Primary Care ProviderSchedule an AppointmentAdAdvertisementAdvertisementQuestions 216.444.2538Appointments & LocationsRequest an AppointmentFind a Primary Care ProviderRendered: Wed Sep 11 2024 07:54:10 GMT+0000 (Coordinated Universal Time)FacebookTwitterYouTubeInstagramLinkedInPinterestSnapchatActionsAppointments & AccessAccepted InsuranceEvents CalendarFinancial AssistanceGive to Cleveland ClinicPay Your Bill OnlineRefer a PatientPhone DirectoryVirtual Second OpinionsVirtual VisitsBlog, News & AppsConsult QDHealth EssentialsNewsroomMyClevelandClinicMyChartAbout Cleveland Clinic100 Years of Cleveland ClinicAbout UsLocationsQuality & Patient SafetyOffice of Diversity & InclusionPatient ExperienceResearch & InnovationsCommunity CommitmentCareersFor EmployeesResources for Medical ProfessionalsSite Information & PoliciesSend Us FeedbackSite MapAbout this WebsiteCopyright, Reprint & LicensingWebsite Terms of UsePrivacy PolicyNotice of Privacy PracticesNon-Discrimination Notice9500 Euclid Avenue, Cleveland, Ohio 44195 | 800.223.2273 | © 2024 Cleveland Clinic. All Rights Reserved.
+-------------------------------------
+2024-09-11 13:24:11 - Function: extract_text_from_website
+Execution Time: 1.560753 seconds
+Arguments: () {'url': 'https://www.healthline.com/health/headache-warning-signs'}
+Output: Headache Warning Signs: Fever and 12 More Reasons to Seek Help
+HealthlineHealth ConditionsDiscoverPlanConnectSubscribeNutritionMeal KitsOverviewDietsMeal KitsPrepared MealsComparisonsGrocery DeliverySpecial DietsHealthy EatingFood FreedomConditionsFeel Good FoodProductsVitamins & SupplementsSustainabilityWeight ManagementHeadache Warning SignsMedically reviewed by Seunggu Han, M.D. — Written by Kathryn Watson —
+Updated on October 4, 2018Squeezing sensationNausea, sensitivity to light, soundWaking upFever or stiff neckRapid, severe painHead injuryVision problemsUnusual headachesTriggersTakeaway OverviewHeadaches are extremely common. In fact, the World Health Organization (WHO) estimates that nearly half of adults the world over will have a headache at some point this year.Headaches usually go away without causing further problems. Even many chronic headaches, such as migraines and cluster headaches, aren’t considered signs of more severe, underlying problems. They may need to be treated to improve your life, but they won’t put your life at risk.Nevertheless, if you experience any unusual symptoms, make immediate arrangements to visit a doctor or the emergency room (ER). Headache that feels like head squeezingThe tension-type headache is the most common primary headache. It’s usually bilateral, which means that it affects both sides of the head. It’s commonly described as a squeezing sensation.Tension-type headaches can be stress- or musculoskeletal-related. They can be treated with over-the-counter (OTC) pain medications such as ibuprofen (Advil, Motrin) and aspirin (Bayer). Headache accompanied by nausea, vomiting, or sensitivity to light and soundThese are common symptoms of migraine headaches. Migraines cause a throbbing sensation that usually occurs on just one side of the head.They’re one of the top 10 causes of disability worldwide. They aren’t life-threatening, but they can severely impact your well-being.If you’re experiencing migraines, it’s important for you to find out if there’s a cause. Migraines are most common in people 30 to 40 years old, according to The Migraine Trust. According to the Office on Women’s Health, around 75 percent of people affected by migraines are women.Factors that can make a person more likely to experience chronic migraines include:obesitydiabetesdepressionhypertensionstressful life eventsA variety of prescription drugs are available to treat migraines. Other treatments include OTC painkillers such as Excedrin Migraine and alternative methods such as acupuncture and herbal remedies. Headache that wakes you upBeing woken by head pain is a common symptom of cluster headaches. These are also known as alarm clock headaches. Like migraines, cluster headaches occur most often on just one side of the head.Cluster headaches happen in patterns called cluster periods, during which time the pain can be quite intense and prevent you from sleeping. Sometimes cluster headache pain is centered around one or both of the eyes.Cluster headaches are generally not life-threatening. However, they can be debilitating, so you’ll want to find out the underlying cause.Headaches that wake you from your sleep can also be caused by medical conditions such as high blood pressure, sleep apnea, and brain tumors. Depression and caffeine withdrawal can also cause cluster headaches.Cluster headaches are most likely to affect people between 20 to 50 years old and men, according to the Mayo Clinic.Home remedies that may bring relief include magnesium supplements, melatonin, and capsaicin cream. Other treatment methods include supplemental oxygen, triptan medications, and the intravenous medication dihydroergotamine (DHE). Headache with a fever or stiff neckA headache combined with a fever or a stiff neck may indicate encephalitis or meningitis. Encephalitis is inflammation of the brain, while meningitis is inflammation of the membrane that surrounds the brain.When due to severe infection, either condition can be fatal. A compromised immune system, diabetes mellitus, and use of immune-system suppressing medication can make you more susceptible to these infections.These infections must be treated immediately with intravenous antibiotic therapy. Thunderclap headacheA thunderclap headache is an extremely severe headache that comes on rapidly. It’s sometimes called a lone acute headache. It develops in 60 seconds or less and causes intense pain.Thunderclap headaches can be caused by bleeding in the brain after an arterial aneurysm rupture, stroke, or other injury.Pain from thunderclap headaches might occur anywhere on your head and extend to your neck or even areas of your lower back. The intense pain can last for an hour or more, and might be accompanied by dizziness, nausea, or loss of consciousness.Meningitis, encephalitis, and brain tumors can cause thunderclap headaches. Hypertension is a more common cause.The treatment for this kind of headache will depend on the cause. It’s important to speak to a doctor immediately if you have a headache that reaches peak intensity in a minute or less and doesn’t subside. Headache after a head injuryAny head trauma that causes a headache requires prompt medical attention. A headache after any kind of impact to the head can indicate a concussion.Concussion is a particular risk if the headache continues to worsen after the injury. Even a minor fall or bump to the head can result in potentially life-threatening bleeding in the brain. Headache accompanied by vision problemsAn ocular migraine can temporarily cause blindness or flashing lights in one eye. These symptoms will sometimes accompany a typical migraine headache as well.If your migraines or regular headaches are accompanied by these visual disturbances, you need to tell your doctor. It’s possible that spasms in the retina cause these symptoms. People who experience ocular migraines may be more prone to long-term vision loss.Migraines with auras, formerly known as classic migraines, can also cause “floating” lights or blind spots. In that case, however, the symptoms will occur in both eyes. New or unusual headachesBesides the specific headache symptoms described above, any new or unusual headaches should be discussed with your doctor. Pay particular attention to headaches that:first develop after age 50suddenly change in frequency, location, or severityget consistently worse over timeare accompanied by changes in personalitycause weaknessaffect your vision or speechWomen who are experiencing menopause might find that they have new headache patterns or experience migraines when they never have before.COPING WITH HEADACHESHeadaches are very common, but certain characteristics can signal a serious condition. For more common headaches, such as tension, cluster, or even migraine headaches, there are triggers, which can vary from person to person. Paying attention to your triggers and making small adjustments to your lifestyle may help avoid headache attacks. — Seunggu Han, MD Headache triggersSometimes a headache can indicate that your body is experiencing withdrawal from a chemical substance (such as caffeine). Other times your headache might be triggered by the dehydrating effects of alcohol consumption.It’s also not unusual for people to experience headaches when they quit smoking tobacco products, due to nicotine withdrawal. These headache triggers are usually not indicative of any greater medical problem, and lifestyle choices can ensure that these headaches won’t continue.Fatigue headaches, sometimes called exertional headaches, can be caused when your body is strained by too much physical activity. Eye muscle strain and lack of sleep can cause a dull throbbing headache that feels similar to an exertional headache.Making sure to get enough rest, taking frequent breaks from computer work, and drinking the recommended amount of water each day will probably stop these headaches from happening.KEEP A JOURNALKeeping a journal with details of what you were doing or what was happening at the time of your headaches may help to pinpoint things that you may want to avoid in the future to prevent a similar headache from recurring. — Stacy R. Sampson, DO TakeawayTreatments for headaches will vary widely, depending on their cause. Most headaches can be treated at home with ibuprofen or aspirin to relieve mild pain.But if you’re experiencing any of the warning signs listed above, you’ll need to seek a doctor’s counsel for how to best treat your symptoms.Antidepressant medication, blood pressure medication, lifestyle changes, and other treatment regimens may be recommended to aid you in getting headache relief.How we reviewed this article:SourcesHealthline has strict sourcing guidelines and relies on peer-reviewed studies, academic research institutions, and medical journals and associations. We only use quality, credible sources to ensure content accuracy and integrity. You can learn more about how we ensure our content is accurate and current by reading our editorial policy.Headache: When toworry, what to do. (2018).https://www.health.harvard.edu/headache-when-to-worry-what-to-doMay A, et al.(2016). Chronic migraine: Risk factors, mechanisms and treatment [Abstract]. DOI:http://doi.org/10.1038/nrneurol.2016.93Mayo Clinic Staff. (2017).Cluster headache.https://www.mayoclinic.org/diseases-conditions/cluster-headache/symptoms-causes/syc-20352080Mayo Clinic Staff. (2018).Migraine.https://www.mayoclinic.org/diseases-conditions/migraine-headache/symptoms-causes/syc-20360201Mayo Clinic Staff. (2018).Thunderclap headaches.https://www.mayoclinic.org/diseases-conditions/thunderclap-headaches/symptoms-causes/syc-20378361Migraine. (2018).https://www.womenshealth.gov/publications/our-publications/fact-sheet/migraine.htmlMigraine in laterlife. (n.d.).https://www.migrainetrust.org/living-with-migraine/coping-managing/migraine-in-later-lifeSteiner TJ, et al.(2013). Migraine: The seventh disabler. DOI:https://doi.org/10.1186/1129-2377-14-1Swanson JW. (2018). Ocular migraine:When to seek help,https://www.mayoclinic.org/diseases-conditions/migraine-headache/expert-answers/ocular-migraine/faq-20058113World HealthOrganization. (2016). Headache disorders [Fact sheet].http://www.who.int/en/news-room/fact-sheets/detail/headache-disordersShare this articleMedically reviewed by Seunggu Han, M.D. — Written by Kathryn Watson —
+Updated on October 4, 2018Read this nextWhat Could Be Causing Your Splitting Headache?Medically reviewed by Heidi Moawad, M.D.A splitting headache can have many different causes. Migraine, cluster, and tension headaches are examples of primary headaches. Secondary headaches…READ MOREWhat Causes Headaches on the Right Side of Your Head?Medically reviewed by Deborah Weatherspoon, Ph.D., MSNLearn what's causing headaches on the right side of your head. The cause depends on the type of headache and other symptoms you may have. READ MOREHeadache on the Top of the HeadMedically reviewed by Deena Kuruvilla, MDIdentifying exactly what type of headache you’re experiencing is crucial to finding the right treatment and getting relief.READ MOREWhat’s Causing My Headache and Dizziness?Medically reviewed by Seunggu Han, M.D.Having a headache and dizziness at the same time makes it hard to do much of anything. We’ll go over the most common possible causes of headaches with…READ MOREHeadache Hacks: 9 Simple Tricks for Fast ReliefMedically reviewed by Seunggu Han, M.D.Over-the-counter medications don’t always eliminate headache symptoms. And tempting though it may be, the solution isn’t to take more than the…READ MOREQuiz: Why Do I Have Headaches?Narrowing down the source of your headache may help you better manage symptoms. READ MORECan Using a CPAP Machine Cause Headaches?CPAP may improve headaches in some people. But others may develop headaches if their mask is too tight, if CPAP causes nasal congestion, or for other…READ MOREYour Guide to Gua Sha Massage for Headache ReliefIf you experience pain from headaches, gua sha massage may be able to bring relief. Let's see what he research says and how to do it.READ MOREAbout UsContact UsPrivacy PolicyPrivacy SettingsAdvertising PolicyHealth TopicsSitemapMedical AffairsContent IntegrityNewsletters© 2024 Healthline Media LLC. All rights reserved. Healthline Media is an RVO Health Company. Our website services, content, and products are for informational purposes only. Healthline Media does not provide medical advice, diagnosis, or treatment. See additional information.© 2024 Healthline Media LLC. All rights reserved. Healthline Media is an RVO Health Company. Our website services, content, and products are for informational purposes only. Healthline Media does not provide medical advice, diagnosis, or treatment. See additional information.AboutCareersAdvertise with usOUR BRANDSHealthlineMedical News TodayGreatistPsych CentralBezzy
+-------------------------------------
+2024-09-11 13:24:12 - Function: extract_text_from_website
+Execution Time: 1.554391 seconds
+Arguments: () {'url': 'https://www.verywellhealth.com/infections-that-cause-headache-and-fever-1719431'}
+Output: Fever and Headache: 15 Causes and How to Treat Them
+Skip to content
+Menu
+Health A-Z
+COVID-19
+Arthritis
+Type 2 Diabetes
+Heart Disease
+Digestive Health
+Multiple Sclerosis
+View All
+Prevention & Treatment
+Diet & Nutrition
+First Aid
+Surgery
+Health Care
+Health Insurance
+Public Health
+Patient Rights
+Disability
+Caregivers & Loved Ones
+End of Life Concerns
+View All
+News
+COVID-19
+Health News
+Tools & Resources
+Thyroid Test Analyzer
+Doctor Discussion Guides
+Hemoglobin A1c Test Analyzer
+Lipid Test Analyzer
+Complete Blood Count (CBC) Analyzer
+What to Buy
+About Us
+Editorial Process
+Meet Our Medical Expert Board
+Search
+Search
+GO
+Health A-Z
+COVID-19
+Arthritis
+Type 2 Diabetes
+Heart Disease
+Digestive Health
+Multiple Sclerosis
+View All
+Prevention & Treatment
+Diet & Nutrition
+First Aid
+Surgery
+View All
+Health Care
+Health Insurance
+Public Health
+Patient Rights
+Disability
+Caregivers & Loved Ones
+End of Life Concerns
+View All
+News
+COVID-19
+Health News
+View All
+More in Headaches
+Causes & Risk Factors
+Symptoms
+Diagnosis
+Treatment
+Living With
+Prevention
+Related Conditions
+View More
+Tools & Resources
+Thyroid Test Analyzer
+Doctor Discussion Guides
+Hemoglobin A1c Test Analyzer
+Lipid Test Analyzer
+Complete Blood Count (CBC) Analyzer
+What to Buy
+About Us
+Editorial Process
+Privacy Policy
+Contact Us
+Verywell Health's content is for informational and educational purposes only. Our website is not intended to be a substitute for professional medical advice, diagnosis, or treatment.
+\u24b8 2024 Dotdash Media, Inc. — All rights reserved
+Brain & Nervous System
+Headaches
+Causes & Risk Factors
+What Causes Fever and Headache Together and How It’s Treated
+By
+Colleen Doherty, MD
+Updated on August 09, 2024
+Medically reviewed by
+Nicholas R. Metrus, MD
+Print
+Table of Contents
+View All
+Table of Contents
+Meningitis
+Encephalitis
+Cold or Flu
+Brain Abscess
+Sinus Infection
+Heatstroke
+Rheumatoid Arthritis
+HIV or AIDS
+Lupus
+Other Causes
+When to Seek Care
+The combination of a fever and a headache is a common sign of infection. Some infections that cause fever and headache, such as bacterial meningitis, can be serious and require hospitalization. Other infections that cause fever and headache are more run-of-the-mill and will get better on their own. Sometimes, fever and headache can be a sign of a chronic, non-infectious illness, like lupus or heatstroke.
+The article discusses both infectious and non-infectious causes of a headache with a fever. It also covers other possible symptoms and when you should see a healthcare provider.
+Verywell / Joshua Seong
+Meningitis
+Meningitis is an inflammation of the meninges, the protective membranes around the brain and spinal cord. Meningitis is usually caused by viruses or bacteria, but it can also be caused by some medicines or non-infectious illnesses.
+While any type of meningitis can be serious, viral meningitis tends to be less severe than bacterial meningitis.
+Symptoms
+In addition to a severe, generalized headache and a high fever, symptoms of meningitis may include:
+Neck stiffnessNauseaVomitingConfusionRashSensitivity to lightJoint painsSeizures
+A person who has meningitis typically will not have all of these symptoms. If you think you may have symptoms of meningitis, seek immediate medical care.
+In the majority of people with meningitis, nuchal rigidity will be present. This means that a person can’t easily flex their neck, and they may be unable to touch their chin to their chest.
+Treatment
+With viral meningitis, there is no specific treatment. Most people recover on their own from viral meningitis after a week to 10 days. An antiviral medication could help if the meningitis is caused by certain viruses such as influenza or herpes virus.
+Bacterial meningitis is treated with antibiotics. Because bacterial meningitis can be a serious, life-threatening infection, it’s important to start treatment as soon as possible.
+Encephalitis
+Encephalitis is an infection of the central nervous system that may be caused by a virus, bacteria, or fungus.
+The key difference between meningitis and encephalitis is that meningitis is inflammation of the lining around the brain and encephalitis is inflammation of the brain itself. Both meningitis and encephalitis can cause abnormalities in brain function leading to confusion and seizures.
+Encephalitis is a serious, life-threatening disease that needs immediate medical attention. Severe cases lead to death in about 10% of patients.
+Because the two can be so difficult to differentiate, doctors sometimes use the term “meningoencephalitis.”
+Symptoms
+In addition to fever and headache, symptoms of encephalitis include:
+Joint painMuscle weaknessStiff neckNausea
+Encephalitis causes symptoms with brain function as well, including:
+ConfusionBehavior changesSensitivity to lightDifficulty speakingTrouble movingMemory issuesLoss of consciousnessSeizures
+Treatment
+Treatment depends on the type of encephalitis you have. If it’s a bacterial infection, antibiotics should be prescribed. For viral infections, antiviral medications may be given.Other treatments may depend on the severity and effects of the illness. Steroids may be given to reduce swelling and brain pressure.
+Cold or Flu
+Influenza, commonly known as “the flu,” mononucleosis "mono," and the common cold can cause fever and headache. These illnesses are caused by viruses that spread easily from person to person.
+Mono is usually mild, and the flu can cause mild symptoms or severe illness. In some instances, it can be serious enough to be life-threatening, especially for those over 65, people with chronic illnesses, and newborns.
+Symptoms
+Along with fever and headache, other symptoms of the flu or mono may include:
+Chills
+Cough
+Stuffy or runny nose
+Muscle aches
+Fatigue (tiredness)
+Vomiting or diarrhea are possible (more common in children)
+When you have a cold, the symptoms can be similar to the flu. Fever and headache are possible but less common with a cold than with the flu.
+Symptoms of a cold include:
+SneezingRunny or stuffy noseSore throatCough
+Treatment
+Often, the best treatment for a cold, the flu, or mono is to stay home, get lots of rest, and drink lots of fluids. Over-the-counter medications like acetaminophen and ibuprofen may also help with a headache and fever.
+If you have the flu, your doctor may be able to prescribe antiviral drugs. These can reduce the amount of time you’re sick by a couple of days and decrease the chance of complications.
+Physicians don’t prescribe antibiotics for a cold, the flu, or mono since they’re not effective against viruses. However, if you get a complication from the cold or flu, such as a bacterial sinus infection, you might need an antibiotic.
+Brain Abscess
+A brain abscess is a rare, but potentially life-threatening condition, in which infected fluid collects in the brain.
+A headache from a brain abscess occurs as a result of elevated intracranial pressure as the abscess continues to grow and take up space.
+Symptoms
+Symptoms of a brain abscess can resemble that of meningitis or encephalitis. In addition to fever and headache, symptoms include:
+Neck stiffnessChillsVomitingConfusion, trouble focusing, or sleepinessWeaknessLanguage problemsLoss of muscle function, usually on one sideVision changesSeizures
+Treatment
+Medication may be the first step if the abscess is less than 2 centimeters or the abscess is deep in the brain. This can include antibiotics or antifungal medication, depending on what caused the infection. Diuretics, which reduce fluid, may also be used to decrease swelling in the brain.
+Surgery may be needed to drain the abscess if it’s larger than 2 centimeters or if it might rupture. If the abscess is deep, needle aspiration guided by a CT or MRI scan may be used to drain the fluid.
+Sinus Infection
+A sinus infection, or sinusitis, is the swelling or inflammation of the lining in your sinuses. Your sinuses are hollow spaces behind your forehead, eyes, and cheeks that connect to your nasal passages.
+The sinuses make thin mucus that drains out of the nose. When they become blocked with fluid, bacteria can grow and cause an infection. This extra mucus could be caused by a cold or allergies.
+Symptoms
+A bacterial sinus infection can give you a fever and a sinus headache, which you may feel around your eyes and forehead.
+Other symptoms include:
+Facial tenderness or swellingEar painTooth painThick nasal discharge
+Treatment
+If you have bacterial sinusitis, a week or so of antibiotics, rest, fluids, and steam should clear it up quickly. Very rarely sinus infections lead to other complications like a brain abscess, meningitis, blood clot, or osteomyelitis—an infection of the facial bones (especially the forehead).
+If you are diagnosed with a sinus infection, be sure to follow up with your healthcare provider if your fever persists while taking antibiotics.
+Heatstroke
+Heatstroke is the most severe form of heat-related illness. It happens when your body overheats to over 106°F and you aren’t able to sweat enough to cool your body down. It can be life-threatening and requires immediate medical attention.
+Symptoms
+The symptoms of heatstroke include:
+High body temperature (over 106°F)Confusion or altered mental statusLoss of consciousness (coma)Slurred speechHot, dry skin or excessive sweatingSeizuresDeath, unless treated promptly
+Treatment
+Heatstroke is a medical emergency. Call 911 if you suspect heatstroke.
+While waiting for medical help, try cooling the person’s body as quickly as possible. Get to a shady, cool area. Have them lie down and elevate their feet. Apply cold water to the skin and then use a fan to help cool the body quickly.
+In the emergency room, intravenous (IV) fluids will be used to replace fluids lost.
+Rheumatoid Arthritis
+Rheumatoid arthritis (RA) causes pain, stiffness, and swelling in the joints. It’s an autoimmune disease, which means that it happens when the immune system attacks the body’s own healthy tissues. In some cases, it can cause fever and headaches.
+Symptoms
+RA can occasionally cause mild fevers. It can also cause headaches, particularly if it affects the cervical spine.
+Other symptoms include:
+Neck or back painSwelling of jointsWarmth around jointsWeaknessFatigue
+Treatment
+Treatment for RA typically includes disease-modifying antirheumatic drugs (DMARDs). These can slow the progression of RA by modifying your immune system. Biologic agents are sometimes used to control inflammation in rheumatoid arthritis.
+HIV or AIDS
+HIV (human immunodeficiency virus) damages your immune system by attacking a type of white blood cell that fights infections.
+If HIV isn’t treated, it can lead to AIDS (acquired immune deficiency syndrome). AIDS is the final stage of HIV infection in which the immune system is severely damaged.
+Early HIV or AIDS can cause many different symptoms. Headache and fever are possible symptoms of both.
+Symptoms
+Symptoms of early HIV infection can happen two to four weeks after exposure to the virus. These early symptoms are estimated to affect about two-thirds of those infected.
+Early HIV symptoms include:
+Fever (above 100.4 degrees F)HeadacheSore throatMuscle and joint painRash that occurs two to three days after fever
+If HIV isn’t treated, it weakens your immune system and can lead to AIDS. At this stage, you’re more likely to develop “opportunistic infections,” severe illnesses that your body can’t fight off. Depending on the infection, symptoms can include fevers, shortness of breath, blurred vision, and weight loss.
+Treatment
+While there isn’t a cure for HIV, medications are available to control it. Antiretroviral therapy (ART) involves taking a daily combination of HIV medications. This reduces the amount of HIV in the blood and helps protect the immune system.
+Lupus
+Lupus is an autoimmune disease. It can cause swelling and pain throughout your body. Your symptoms can be minimal at times and flare up at other times, suddenly becoming more severe.
+Symptoms
+Headaches are a common symptom for people with lupus. In a 2021 study, 54% of patients with lupus reported having primary headaches, with migraines being the most common.
+Reoccuring low-grade fevers are also common before a lupus flare or oncoming illness.
+Other symptoms include:
+Joint stiffness, pain, or swellingFatigueSwelling in the hands or feetSensitivity to lightChest pain when taking deep breathsHair lossSores in the mouth or noseButterfly-shaped rash on cheeks and nose
+Treatment
+There is no cure for lupus, but different types of medications are available to treat symptoms and manage the illness. Some medications can help treat swelling and pain. Others help prevent the immune system from attacking tissues in the body.
+For mild pain and fevers, your physician may suggest over-the-counter nonsteroidal anti-inflammatory drugs (NSAIDs), such as ibuprofen and naproxen.
+Corticosteroids such as prednisone can help reduce pain and calm the immune system. They may be prescribed in either low or high doses, depending on the severity of the illness.
+Antimalarial drugs such as hydroxychloroquine and chloroquine phosphate may also be prescribed. In addition to treating malaria, they help treat joint pain, fatigue, and lung inflammation with lupus.
+Other Causes
+There are also less common causes of the combination of fever and headache. Some of them are rare, and some may cause a headache or fever, but do not usually cause that combination.
+Your healthcare provider might consider these causes if your symptoms are unusual or if the initial testing and treatments for more common causes don't provide answers or relief.
+Conditions may include:
+Giant cell arteritis: Also called temporal arteritis, this is an inflammatory condition of the arteries that run under the scalp. It can cause pain, vision changes, and a fever.
+Sarcoidosis: This inflammatory condition is not common. Neurosarcoidosis can cause inflammation in or near the brain, potentially causing neurological symptoms, and it may cause a headache. A fever is not a common sign of sarcoidosis.
+Pituitary apoplexy: This is a rare condition that occurs when the blood supply to the pituitary gland is blocked or when there is bleeding of this gland. It can cause a headache, nausea, vomiting, vision changes, fever, and loss of consciousness.
+Brain tumor: A primary brain tumor that starts in the brain or a metastatic brain tumor that spreads to the brain from somewhere else In the body can cause a headache and neurological symptoms (such as vision changes or weakness). This doesn't usually cause a fever.
+Osteomyelitis: Inflammation or an infection of bone may affect the skull or upper spine, causing a headache with a fever. This is not a common condition.
+Subarachnoid hemorrhage: A blood vessel rupture can cause a severe headache, often with changes in consciousness. A fever is not a typical symptom of this life-threatening condition.
+When to See a Healthcare Provider
+If you have a fever and headache, you may need to get medical care to determine the cause. Call your doctor to let them know your symptoms.
+Go to the doctor right away if you experience any of the following:
+A severe headacheA headache that doesn’t go away with medicationFever and/or headache that are persistentHeadache and fever that get worse instead of improvingHeadaches and fever that happen more often than usual
+Seek immediate medical care if you have fever and headache in addition to these symptoms:
+Stiff or painful neckRashVomitingConfusionFaintingChanges in consciousnessVision changesLoss of muscle functionDifficulty speaking or movingSeizures
+You should also go to the emergency room for extremely painful headaches that occur suddenly. These are called thunderclap headaches because they can appear suddenly like a crash of thunder.
+Some thunderclap headaches can occur because of a problem with blood vessels in the brain. This can include a stroke or a brain aneurysm.
+A thunderclap headache can represent a serious, life-threatening medical condition, so get help right away by either calling 911 or going to your nearest emergency room.
+Summary
+Having both a fever and headache can be signs of an infectious or non-infectious condition. Some illnesses may be mild, such as the common cold. Others can be serious, or even life-threatening, such as meningitis or a brain abscess.
+Call your doctor if you have any questions about what could be causing your headache and fever. Let them know if you have new or concerning symptoms, or if they’re persistent or getting worse. Seek emergency care for any severe symptoms.
+Headaches Doctor Discussion Guide
+Get our printable guide for your next doctor's appointment to help you ask the right questions.
+Download PDF
+Sign up for our Health Tip of the Day newsletter, and receive daily tips that will help you live your healthiest life.
+Email Address
+Sign Up
+You're in!
+Thank you, {{form.email}}, for signing up.
+There was an error. Please try again.
+Types and Treatment of Bacterial Infection
+22 Sources
+Verywell Health uses only high-quality sources, including peer-reviewed studies, to support the facts within our articles. Read our editorial process to learn more about how we fact-check and keep our content accurate, reliable, and trustworthy.
+Al-Qahtani S, Shati A, Alqahtani Y, Saeed Ali A. Etiology, clinical phenotypes, epidemiological correlates, laboratory biomarkers and diagnostic challenges of pediatric viral meningitis: Descriptive review. Front Pediatr. 2022 Jun;10(1):1-15. doi:10.3389/fped.2022.923125
+Centers for Disease Control and Prevention. Bacterial meningitis.
+Kohil A, Jemmieh S, Smatti MK, Yassine HM. Viral meningitis: an overview. Arch Virol. 2021;166(2):335-345. doi:10.1007/s00705-020-04891
+Centers for Disease Control and Prevention. Viral meningitis.
+Hansen MA, Samannodi MS, Hasbun R. Predicting inpatient mortality among encephalitis patients: a novel admission risk score. Open Forum Infect Dis. 2020;7(11):ofaa471. doi:10.1093/ofid/ofaa471
+Mondal R, Ganguly U, Deb S, et al. Meningoencephalitis associated with COVID-19: a systematic review. J Neurovirol. 2021;27(1):12-25. doi:10.1007/s13365-020-00923-3
+National Institute of Neurological Disorders and Stroke. Meningitis and encephalitis fact sheet.
+Centers for Disease Control and Prevention. Flu symptoms & complications.
+Patel K, Clifford DB. Bacterial brain abscess. Neurohospitalist. 2014;4(4):196-204. doi:10.1177/1941874414540684
+Johns Hopkins Medicine. Cerebral abscess.
+Mount Sinai. Brain abscess.
+Penn Medicine. Sinus infection (sinusitis).
+Orlandi RR, Kingdom TT, Smith TL, et al. International consensus statement on allergy and rhinology: rhinosinusitis 2021. Int Forum Allergy Rhinol. 2021;11(3):213-739. doi:10.1002/alr.22741
+CDC National Institute for Occupational Safety and Health (NIOSH). Heat stress — heat related illness.
+Trabelsi M, Romand X, Gilson M, et al. Rheumatoid meningitis a rare extra-articular manifestation of rheumatoid arthritis: report of 6 cases and literature review. J Clin Med. 2020;9(6):1625. doi:10.3390/jcm9061625
+Lee SY, Jang DI, Noh C, Ko YK. Successful treatment of occipital radiating headache using pulsed radiofrequency therapy. J Korean Neurosurg Soc. 2015;58(1):89. doi:10.3340/jkns.2015.58.1.89
+Johns Hopkins Arthritis Center. Rheumatoid arthritis treatment.
+HIV.gov. Symptoms of HIV.
+de Oliveira Andrade S, Julio P, de Paula Ferreira D, Appenzeller S. Predicting lupus flares: epidemiological and disease related factors. Expert Rev Clin Immunol. 2021 Feb;17(2):143-153. doi:10.1080/1744666X.2020.1865156
+Elolemy G, Al Rashidi A, Youssry D, Elziat H, Baraka E. Headache in patients with systemic lupus erythematosus: characteristics, brain MRI patterns, and impact. Egypt Rheumatol Rehabil. 2021;48(1):31. doi:10.1186/s43166-021-00078-x
+Lupus Foundation of America. Lupus symptoms.
+Lupus Foundation of America. Treating lupus: a guide.
+By Colleen Doherty, MD
+Dr. Doherty is a board-certified internist and writer living with multiple sclerosis. She is based in Chicago.
+See Our Editorial Process
+Meet Our Medical Expert Board
+Share Feedback
+Was this page helpful?
+Thanks for your feedback!
+What is your feedback?
+Other
+Helpful
+Report an Error
+Submit
+Related Articles
+Treating Headache and Nausea
+Headache From Low Blood Sugar
+What to Do If You Get Headaches at Night
+Temple Headache: Causes and How To Ease the Pain
+What Causes a Sinus Headache Without Congestion
+What Causes Headaches When Bending Over?
+9 Reasons for a Headache in the Back of the Head
+What Is New Daily Persistent Headache?
+What Is TMJ Headache?
+Excedrin Migraine vs. Extra Strength: Is There a Difference?
+What Causes a Headache on the Right Side of Your Head?
+How to Get Rid of a Hangover Headache
+Does an Orgasm Really Help With Headaches?
+How Fasting Causes Headaches
+Headache After Botox: What You Should Know
+Rebound Headache: What to Know and How to Break the Cycle
+Daily Health Tips to Your Inbox
+Email Address
+Sign Up
+You're in!
+Thank you, {{form.email}}, for signing up.
+There was an error. Please try again.
+Health A-Z
+Prevention & Treatment
+Health Care
+News
+Meet Our Medical Expert Board
+About Us
+Editorial Process
+Diversity Pledge
+Privacy Policy
+In the News
+Advertise
+Terms of Service
+Careers
+Contact
+Follow Us
+Verywell Health's content is for informational and educational purposes only. Our website is not intended to be a substitute for professional medical advice, diagnosis, or treatment.
+\u24b8 2024 Dotdash Media, Inc. — All rights reserved
+Verywell Health
+is part of the Dotdash Meredith publishing family.
+-------------------------------------
+2024-09-11 13:24:12 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'cure.txt'}
+Output: answer the user query based on the given context return the response in json format{disease:string response,cure:string resonse,reasons:[list of reasons]}  query:{query}   context:{context}
+-------------------------------------
+2024-09-11 13:24:14 - 127.0.0.1 - - [11/Sep/2024 13:24:14] "POST /chat/result HTTP/1.1" 200 -
+2024-09-11 13:24:57 - 127.0.0.1 - - [11/Sep/2024 13:24:57] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:24:57 - Function: get_prompt
+Execution Time: 0.001033 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:24:58 - 127.0.0.1 - - [11/Sep/2024 13:24:58] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:25:06 - 127.0.0.1 - - [11/Sep/2024 13:25:06] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:25:06 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:25:07 - 127.0.0.1 - - [11/Sep/2024 13:25:07] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:25:10 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:25:10 - 127.0.0.1 - - [11/Sep/2024 13:25:10] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:25:13 - 127.0.0.1 - - [11/Sep/2024 13:25:13] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:25:14 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:25:14 - 127.0.0.1 - - [11/Sep/2024 13:25:14] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:26:32 - 127.0.0.1 - - [11/Sep/2024 13:26:32] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:26:32 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:26:34 - 127.0.0.1 - - [11/Sep/2024 13:26:34] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:26:38 - 127.0.0.1 - - [11/Sep/2024 13:26:38] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:26:38 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:26:40 - 127.0.0.1 - - [11/Sep/2024 13:26:40] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:52:10 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-11 13:52:10 - [33mPress CTRL+C to quit[0m
+2024-09-11 13:52:10 -  * Restarting with stat
+2024-09-11 13:52:14 -  * Debugger is active!
+2024-09-11 13:52:14 -  * Debugger PIN: 267-555-874
+2024-09-11 13:52:26 - 127.0.0.1 - - [11/Sep/2024 13:52:26] "GET /chat/session HTTP/1.1" 200 -
+2024-09-11 13:52:57 - 127.0.0.1 - - [11/Sep/2024 13:52:57] "GET /chat/session HTTP/1.1" 200 -
+2024-09-11 13:53:41 - 127.0.0.1 - - [11/Sep/2024 13:53:41] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:53:41 - Function: get_prompt
+Execution Time: 0.000997 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words or anything related to booking an appointment with a doctor like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:53:44 - 127.0.0.1 - - [11/Sep/2024 13:53:44] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:55:27 - 127.0.0.1 - - [11/Sep/2024 13:55:27] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-11 13:55:28 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: Ask user to tell about their name,gender age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again.You may ask at most of 5 questions. you have to get all the above information,
+also check for words or anything related to booking an appointment with a doctor like "schedule","appointment" or related words in the user_text then set_schedule accordingly
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool,set_schedule:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-11 13:55:28 - 127.0.0.1 - - [11/Sep/2024 13:55:28] "POST /chat/ HTTP/1.1" 200 -
+2024-09-11 13:56:09 - 127.0.0.1 - - [11/Sep/2024 13:56:09] "OPTIONS /chat/schedule HTTP/1.1" 200 -
+2024-09-11 13:56:09 - 127.0.0.1 - - [11/Sep/2024 13:56:09] "[31m[1mPOST /chat/schedule HTTP/1.1[0m" 405 -
+2024-09-11 14:07:59 -  * Detected change in 'D:\\P.Projex\\hackathons\\medicorenamit\\Medicore-AI\\backend\\app\\schedule.py', reloading
+2024-09-11 14:08:00 -  * Restarting with stat
+2024-09-11 14:08:06 -  * Debugger is active!
+2024-09-11 14:08:06 -  * Debugger PIN: 267-555-874
+2024-09-11 14:10:34 -  * Detected change in 'D:\\P.Projex\\hackathons\\medicorenamit\\Medicore-AI\\backend\\app\\schedule.py', reloading
+2024-09-11 14:10:34 -  * Restarting with stat
+2024-09-11 14:10:39 -  * Debugger is active!
+2024-09-11 14:10:39 -  * Debugger PIN: 267-555-874

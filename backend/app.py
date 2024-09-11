@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_session import Session
+# from flask_session import Session
 # from app.schedule import mai_api_v1
 from app.frontend import frontend  
 from app.chat import chat_app
@@ -20,4 +20,4 @@ app.register_blueprint(frontend)
 app.register_blueprint(chat_app)
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5000,debug=True)

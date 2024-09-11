@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {RotatingLines} from 'react-loader-spinner'
-const Home = lazy(() => import('../ComingSoon'));
+const Home = lazy(() => import('../pages/ComingSoon'));
 const Appointments = lazy(() => import('../pages/Chatbot'));
 
 function App() {

@@ -41,7 +41,7 @@ const Typewriter = ({ text, onComplete }) => {
     return (
         <div className="typewriter overflow-hidden whitespace-pre-wrap break-words inline-block">
             {displayedText}
-            <span className="animate-blink font-extrabold">|</span>
+            {/* <span className="animate-blink font-extrabold">|</span> */}
         </div>
     );
 };

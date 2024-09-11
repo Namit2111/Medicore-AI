@@ -1516,3 +1516,74 @@ Output: answer the user query based on the given context also ask for setting ap
 2024-09-12 00:45:26 - 127.0.0.1 - - [12/Sep/2024 00:45:26] "POST /doctor/save HTTP/1.1" 200 -
 2024-09-12 00:45:53 - 127.0.0.1 - - [12/Sep/2024 00:45:53] "OPTIONS /doctor/save HTTP/1.1" 200 -
 2024-09-12 00:45:53 - 127.0.0.1 - - [12/Sep/2024 00:45:53] "POST /doctor/save HTTP/1.1" 200 -
+2024-09-12 00:58:28 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-12 00:58:28 - [33mPress CTRL+C to quit[0m
+2024-09-12 00:58:28 -  * Restarting with stat
+2024-09-12 00:58:35 -  * Debugger is active!
+2024-09-12 00:58:35 -  * Debugger PIN: 142-502-527
+2024-09-12 00:58:35 - 127.0.0.1 - - [12/Sep/2024 00:58:35] "OPTIONS /doctor/save HTTP/1.1" 200 -
+2024-09-12 00:58:35 - 127.0.0.1 - - [12/Sep/2024 00:58:35] "[35m[1mPOST /doctor/save HTTP/1.1[0m" 500 -
+2024-09-12 00:59:00 - 127.0.0.1 - - [12/Sep/2024 00:59:00] "OPTIONS /doctor/save HTTP/1.1" 200 -
+2024-09-12 00:59:00 - 127.0.0.1 - - [12/Sep/2024 00:59:00] "[35m[1mPOST /doctor/save HTTP/1.1[0m" 500 -
+2024-09-12 01:01:05 -  * Detected change in 'D:\\P.Projex\\hackathons\\medicorenamit\\Medicore-AI\\backend\\utils\\helper.py', reloading
+2024-09-12 01:01:05 -  * Restarting with stat
+2024-09-12 01:01:15 -  * Debugger is active!
+2024-09-12 01:01:15 -  * Debugger PIN: 142-502-527
+2024-09-12 01:01:15 - 127.0.0.1 - - [12/Sep/2024 01:01:15] "OPTIONS /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:01:16 - 127.0.0.1 - - [12/Sep/2024 01:01:16] "[35m[1mPOST /doctor/save HTTP/1.1[0m" 500 -
+2024-09-12 01:01:16 - 127.0.0.1 - - [12/Sep/2024 01:01:16] "[35m[1mPOST /doctor/save HTTP/1.1[0m" 500 -
+2024-09-12 01:02:05 -  * Detected change in 'D:\\P.Projex\\hackathons\\medicorenamit\\Medicore-AI\\backend\\utils\\helper.py', reloading
+2024-09-12 01:02:05 -  * Restarting with stat
+2024-09-12 01:02:12 -  * Debugger is active!
+2024-09-12 01:02:12 -  * Debugger PIN: 142-502-527
+2024-09-12 01:02:12 - 127.0.0.1 - - [12/Sep/2024 01:02:12] "OPTIONS /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:02:12 - 127.0.0.1 - - [12/Sep/2024 01:02:12] "OPTIONS /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:02:12 - 127.0.0.1 - - [12/Sep/2024 01:02:12] "OPTIONS /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:02:12 - 127.0.0.1 - - [12/Sep/2024 01:02:12] "OPTIONS /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:02:13 - 127.0.0.1 - - [12/Sep/2024 01:02:13] "OPTIONS /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:02:13 - 127.0.0.1 - - [12/Sep/2024 01:02:13] "OPTIONS /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:02:13 - Function: save_doctors_data
+Execution Time: 0.000997 seconds
+Arguments: ([{'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}],) {}
+Output: None
+-------------------------------------
+2024-09-12 01:02:13 - 127.0.0.1 - - [12/Sep/2024 01:02:13] "POST /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:02:13 - Function: save_doctors_data
+Execution Time: 0.000995 seconds
+Arguments: ([{'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}, {'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}],) {}
+Output: None
+-------------------------------------
+2024-09-12 01:02:13 - Function: save_doctors_data
+Execution Time: 0.001992 seconds
+Arguments: ([{'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}, {'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}],) {}
+Output: None
+-------------------------------------
+2024-09-12 01:02:13 - Function: save_doctors_data
+Execution Time: 0.001992 seconds
+Arguments: ([{'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}, {'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}],) {}
+Output: None
+-------------------------------------
+2024-09-12 01:02:13 - Function: save_doctors_data
+Execution Time: 0.001994 seconds
+Arguments: ([{'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}, {'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}],) {}
+Output: None
+-------------------------------------
+2024-09-12 01:02:13 - Function: save_doctors_data
+Execution Time: 0.002989 seconds
+Arguments: ([{'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}, {'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}],) {}
+Output: None
+-------------------------------------
+2024-09-12 01:02:13 - Function: save_doctors_data
+Execution Time: 0.001994 seconds
+Arguments: ([{'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}, {'name': 'something', 'specialty': 'Cardiologist', 'address': 'something'}],) {}
+Output: None
+-------------------------------------
+2024-09-12 01:02:13 - 127.0.0.1 - - [12/Sep/2024 01:02:13] "POST /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:02:13 - 127.0.0.1 - - [12/Sep/2024 01:02:13] "POST /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:02:13 - 127.0.0.1 - - [12/Sep/2024 01:02:13] "POST /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:02:13 - 127.0.0.1 - - [12/Sep/2024 01:02:13] "POST /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:02:13 - 127.0.0.1 - - [12/Sep/2024 01:02:13] "POST /doctor/save HTTP/1.1" 200 -
+2024-09-12 01:02:13 - 127.0.0.1 - - [12/Sep/2024 01:02:13] "POST /doctor/save HTTP/1.1" 200 -

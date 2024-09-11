@@ -1,0 +1,52 @@
+[
+    {
+      "doctorName": "Dr. Emily Carter",
+      "specialty": "Cardiologist",
+      "location": "Mumbai, Maharashtra"
+    },
+    {
+      "doctorName": "Dr. John Smith",
+      "specialty": "Dermatologist",
+      "location": "Delhi"
+    },
+    {
+      "doctorName": "Dr. Sarah Johnson",
+      "specialty": "Neurologist",
+      "location": "Bengaluru, Karnataka"
+    },
+    {
+      "doctorName": "Dr. Michael Brown",
+      "specialty": "Orthopedic Surgeon",
+      "location": "Chennai, Tamil Nadu"
+    },
+    {
+      "doctorName": "Dr. Linda Garcia",
+      "specialty": "Pediatrician",
+      "location": "Hyderabad, Telangana"
+    },
+    {
+      "doctorName": "Dr. Robert Lee",
+      "specialty": "General Practitioner",
+      "location": "Pune, Maharashtra"
+    },
+    {
+      "doctorName": "Dr. Jessica White",
+      "specialty": "Gynecologist",
+      "location": "Kolkata, West Bengal"
+    },
+    {
+      "doctorName": "Dr. David Wilson",
+      "specialty": "Oncologist",
+      "location": "Ahmedabad, Gujarat"
+    },
+    {
+      "doctorName": "Dr. Karen Martinez",
+      "specialty": "Endocrinologist",
+      "location": "Jaipur, Rajasthan"
+    },
+    {
+      "doctorName": "Dr. James Anderson",
+      "specialty": "ENT Specialist",
+      "location": "Chandigarh"
+    }
+  ]

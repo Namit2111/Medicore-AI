@@ -1,4 +1,6 @@
-from utils.decorators import timeit
+from utils.decorators import time_it
+import json
+import os
 def initialize_conversation():
     """
     Initializes a new conversation with a default question.
@@ -40,7 +42,7 @@ def load_doctors_data():
         with open(DATA_FILE, 'r') as file:
             return json.load(file)
     return []
-@timeit
+@time_it
 def save_doctors_data(data):
     
     """

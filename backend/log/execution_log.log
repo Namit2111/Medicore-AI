@@ -1400,3 +1400,11 @@ Arguments: () {'filename': 'cure.txt'}
 Output: answer the user query based on the given context also ask for setting appointment to a doctor return the response in json format{disease:string response,cure:string resonse,reasons:[list of reasons],appt:string response}  query:{query}   context:{context}
 -------------------------------------
 2024-09-11 19:44:57 - 127.0.0.1 - - [11/Sep/2024 19:44:57] "POST /chat/result HTTP/1.1" 200 -
+2024-09-11 20:21:03 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.33.26:5000
+2024-09-11 20:21:03 - [33mPress CTRL+C to quit[0m
+2024-09-11 20:21:03 -  * Restarting with stat
+2024-09-11 20:21:05 -  * Debugger is active!
+2024-09-11 20:21:05 -  * Debugger PIN: 109-828-752

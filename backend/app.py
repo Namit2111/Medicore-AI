@@ -3,6 +3,7 @@ from flask import Flask
 # from app.schedule import mai_api_v1
 from app.frontend import frontend  
 from app.chat import chat_app
+from app.doctor import doctor
 from flask_cors import CORS
 
 app = Flask(__name__)
@@ -18,6 +19,7 @@ CORS(app,supports_credentials=True)
 # app.register_blueprint(mai_api_v1)
 app.register_blueprint(frontend)
 app.register_blueprint(chat_app)
+app.register_blueprint(doctor)
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000,debug=True)

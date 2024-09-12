@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-
+import Typewriter from '../components/Typewriter';
 const ChatWithBot = () => {
   const [messages, setMessages] = useState([{ text: "Hello! How can I assist you today?", sender: "bot" }]);
   const [input, setInput] = useState("");
@@ -161,7 +161,11 @@ const ChatWithBot = () => {
               key={index}
               className={`p-4 rounded-lg max-w-xs ${msg.sender === 'bot' ? 'bg-teal-200 text-teal-900 self-start' : 'bg-teal-600 text-white self-end'}`}
             >
-              {msg.text}
+             {msg.sender === "bot" ? (
+          <Typewriter text={msg.text}/>
+        ) : (
+          msg.text
+        )}
             </div>
           ))}
           {/* Loading spinner */}

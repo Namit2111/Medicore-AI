@@ -8226,3 +8226,308 @@ Output: You are a doctor|Ask user to tell about their gender ,age and the proble
 this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
 -------------------------------------
 2024-09-12 11:12:58 - 127.0.0.1 - - [12/Sep/2024 11:12:58] "POST /chat/ HTTP/1.1" 200 -
+2024-09-12 11:21:22 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+2024-09-12 11:21:22 - [33mPress CTRL+C to quit[0m
+2024-09-12 11:21:22 -  * Restarting with watchdog (windowsapi)
+2024-09-12 11:21:26 -  * Debugger is active!
+2024-09-12 11:21:26 -  * Debugger PIN: 953-239-795
+2024-09-12 11:22:15 - 127.0.0.1 - - [12/Sep/2024 11:22:15] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-12 11:22:15 - Function: get_prompt
+Execution Time: 0.001008 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: You are a doctor|Ask user to tell about their gender ,age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again. you have to get all the above information,
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-12 11:22:18 - 127.0.0.1 - - [12/Sep/2024 11:22:18] "POST /chat/ HTTP/1.1" 200 -
+2024-09-12 11:22:27 - 127.0.0.1 - - [12/Sep/2024 11:22:27] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-12 11:22:27 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: You are a doctor|Ask user to tell about their gender ,age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again. you have to get all the above information,
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-12 11:22:28 - 127.0.0.1 - - [12/Sep/2024 11:22:28] "POST /chat/ HTTP/1.1" 200 -
+2024-09-12 11:22:32 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: You are a doctor|Ask user to tell about their gender ,age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again. you have to get all the above information,
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-12 11:22:33 - 127.0.0.1 - - [12/Sep/2024 11:22:33] "POST /chat/ HTTP/1.1" 200 -
+2024-09-12 11:22:36 - 127.0.0.1 - - [12/Sep/2024 11:22:36] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-12 11:22:36 - Function: get_prompt
+Execution Time: 0.002989 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: You are a doctor|Ask user to tell about their gender ,age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again. you have to get all the above information,
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-12 11:22:36 - 127.0.0.1 - - [12/Sep/2024 11:22:36] "POST /chat/ HTTP/1.1" 200 -
+2024-09-12 11:24:33 - 127.0.0.1 - - [12/Sep/2024 11:24:33] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-12 11:24:33 - Function: get_prompt
+Execution Time: 0.000997 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: You are a doctor|Ask user to tell about their gender ,age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again. you have to get all the above information,
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-12 11:24:34 - 127.0.0.1 - - [12/Sep/2024 11:24:34] "POST /chat/ HTTP/1.1" 200 -
+2024-09-12 11:24:34 - 127.0.0.1 - - [12/Sep/2024 11:24:34] "OPTIONS /chat/result HTTP/1.1" 200 -
+2024-09-12 11:24:34 - Function: get_prompt
+Execution Time: 0.025930 seconds
+Arguments: () {'filename': 'llm_query.txt'}
+Output: {query}: change given text into a Google-searchable query(so that i can search the disease on google also make it so that user can find cure for it ) and also give a list of keywords in that query that will help me find relatable articles,dont return keywords that are not in query. Return these in a JSON format, example: {{ 'query': 'new generated query' , 'keywords' : ['keywords'] }}
+-------------------------------------
+2024-09-12 11:24:35 - Function: llm_query
+Execution Time: 1.251917 seconds
+Arguments: () {'query': 'Q: How can I help you today?\nA: i have fever\nQ: What is your gender and age?\nA: 21\nQ: What is your gender? \nA: male\nQ: Have you eaten anything that might have made you sick?\nA: no\nQ: What are your symptoms? \nA: fever,diziness\n'}
+Output: {'query': 'fever dizziness 21 year old male', 'keywords': ['fever', 'dizziness', '21', 'year', 'old', 'male']}
+-------------------------------------
+2024-09-12 11:24:35 - Function: calculate_keyword_weights
+Execution Time: 0.396158 seconds
+Arguments: () {'keywords': ['fever', 'dizziness', '21', 'year', 'old', 'male']}
+Output: {'fever': 3, 'dizziness': 4, '21': 2, 'year': 2, 'old': 2, 'male': 3}
+-------------------------------------
+2024-09-12 11:24:35 - Function: search_google
+Execution Time: 0.000000 seconds
+Arguments: ('fever dizziness 21 year old male',) {'num_results': 10, 'advanced': True}
+Output: <generator object search at 0x0000011FA5A501F0>
+-------------------------------------
+2024-09-12 11:24:37 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '31 Jul 2022 — Possible causes of dizziness include vertigo, dehydration, hypoglycemia, and neurological conditions. Lifestyle changes and medications are among the most\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, '21': 2, 'year': 2, 'old': 2, 'male': 3}}
+Output: 0.06666666666666665
+-------------------------------------
+2024-09-12 11:24:37 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': "11 Sept 2023 — Why Am I Dizzy? 13 Reasons · 1. Inner Ear Problems · 2. Migraines · 3. Blood Pressure Drops · 4. Poor Blood Circulation · 5. Parkinson's Disease · 6.", 'keyword_weights': {'fever': 3, 'dizziness': 4, '21': 2, 'year': 2, 'old': 2, 'male': 3}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:37 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '24 Jul 2023 — Vertigo (a spinning sensation) is usually a problem of the inner ear or brain. It may be due to infection or nerve problems. Balance issues\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, '21': 2, 'year': 2, 'old': 2, 'male': 3}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:37 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'This can happen if there is a sudden drop in your blood pressure or you are dehydrated from vomiting, diarrhea, fever, or other causes. Many people, especially\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, '21': 2, 'year': 2, 'old': 2, 'male': 3}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:37 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': "See a GP if:\u200b\u200b you're worried about your dizziness or vertigo. it will not go away or it keeps coming back. you're finding it harder to hear or speak.", 'keyword_weights': {'fever': 3, 'dizziness': 4, '21': 2, 'year': 2, 'old': 2, 'male': 3}}
+Output: 0.06666666666666665
+-------------------------------------
+2024-09-12 11:24:37 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '26 Feb 2021 — A person may experience chest pain and dizziness separately or simultaneously. Triggers can include anxiety, panic attacks, and overexertion during exercise.', 'keyword_weights': {'fever': 3, 'dizziness': 4, '21': 2, 'year': 2, 'old': 2, 'male': 3}}
+Output: 0.06666666666666665
+-------------------------------------
+2024-09-12 11:24:37 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '30 Dec 2022 — Main Cause. Usually due to reduced blood flow to the brain for a short time. It can be triggered by many normal events: Standing too long in one\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, '21': 2, 'year': 2, 'old': 2, 'male': 3}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:37 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'You have a sudden drop in blood pressure. · Your body does not have enough water (is dehydrated) because of vomiting, diarrhea, fever, or other conditions. · You\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, '21': 2, 'year': 2, 'old': 2, 'male': 3}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:37 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'Yes it can make a person dizzy. When you are exposed to hot sun, you will sweat which will make you lose the electrolytes from the body.', 'keyword_weights': {'fever': 3, 'dizziness': 4, '21': 2, 'year': 2, 'old': 2, 'male': 3}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:37 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '11 Jun 2024 — Hypoglycemia · Heart Attack · When to Call 911 · Hot Flashes · Anxiety · Fainting (Due to Low Blood Pressure) · Motion Sickness · Other Possible Causes.', 'keyword_weights': {'fever': 3, 'dizziness': 4, '21': 2, 'year': 2, 'old': 2, 'male': 3}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:41 -  * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2024-09-12 11:24:42 -  * Restarting with watchdog (windowsapi)
+2024-09-12 11:24:47 -  * Debugger is active!
+2024-09-12 11:24:47 -  * Debugger PIN: 953-239-795
+2024-09-12 11:24:47 - Function: get_prompt
+Execution Time: 0.000994 seconds
+Arguments: () {'filename': 'llm_query.txt'}
+Output: {query}: change given text into a Google-searchable query(so that i can search the disease on google also make it so that user can find cure for it ) and also give a list of keywords in that query that will help me find relatable articles,dont return keywords that are not in query. Return these in a JSON format, example: {{ 'query': 'new generated query' , 'keywords' : ['keywords'] }}
+-------------------------------------
+2024-09-12 11:24:49 - Function: llm_query
+Execution Time: 2.244939 seconds
+Arguments: () {'query': 'Q: How can I help you today?\nA: i have fever\nQ: What is your gender and age?\nA: 21\nQ: What is your gender? \nA: male\nQ: Have you eaten anything that might have made you sick?\nA: no\nQ: What are your symptoms? \nA: fever,diziness\n'}
+Output: {'query': 'fever dizziness male 21 years old', 'keywords': ['fever', 'dizziness', 'male', '21', 'years', 'old']}
+-------------------------------------
+2024-09-12 11:24:49 - Function: calculate_keyword_weights
+Execution Time: 0.172978 seconds
+Arguments: () {'keywords': ['fever', 'dizziness', 'male', '21', 'years', 'old']}
+Output: {'fever': 3, 'dizziness': 4, 'male': 3, '21': 2, 'years': 2, 'old': 2}
+-------------------------------------
+2024-09-12 11:24:49 - Function: search_google
+Execution Time: 0.000000 seconds
+Arguments: ('fever dizziness male 21 years old',) {'num_results': 10, 'advanced': True}
+Output: <generator object search at 0x0000014D0E3401F0>
+-------------------------------------
+2024-09-12 11:24:51 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '31 Jul 2022 — Possible causes of dizziness include vertigo, dehydration, hypoglycemia, and neurological conditions. Lifestyle changes and medications are among the most\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0.06666666666666665
+-------------------------------------
+2024-09-12 11:24:51 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': "11 Sept 2023 — If you're wondering why else you may be dizzy, tired, weak, or nauseous, some possible causes are migraines, anxiety, or motion sickness.", 'keyword_weights': {'fever': 3, 'dizziness': 4, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:51 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '24 Jul 2023 — Vertigo (a spinning sensation) is usually a problem of the inner ear or brain. It may be due to infection or nerve problems. Balance issues\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:51 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'This can happen if there is a sudden drop in your blood pressure or you are dehydrated from vomiting, diarrhea, fever, or other causes. Many people, especially\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:51 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '30 Dec 2022 — Causes of Dizziness · Main Cause. Usually due to reduced blood flow to the brain for a short time. · Standing too long in one place. · Standing up\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:51 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '19 Apr 2024 — There are various ways to treat dizziness, depending on the cause. Antihistamines, migraine medications, and anticholinergics are some medical options.', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:51 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': "It's common to sometimes feel dizzy, lightheaded or off-balance, and it's not usually serious. See a GP if you're worried.", 'keyword_weights': {'fever': 3, 'dizziness': 4, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:51 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'Yes it can make a person dizzy. When you are exposed to hot sun, you will sweat which will make you lose the electrolytes from the body.', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:51 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'You have a sudden drop in blood pressure. Your body does not have enough water (is dehydrated) because of vomiting, diarrhea, fever, or other conditions. You\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:51 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'The following temperatures or higher indicate a fever: Adults and children: 100.4°F (38°C) (oral); Babies (under 1 year): 99°F (\xa0...', 'keyword_weights': {'fever': 3, 'dizziness': 4, 'male': 3, '21': 2, 'years': 2, 'old': 2}}
+Output: 0
+-------------------------------------
+2024-09-12 11:24:51 -  * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+2024-09-12 11:24:52 -  * Restarting with watchdog (windowsapi)
+2024-09-12 11:24:56 -  * Debugger is active!
+2024-09-12 11:24:56 -  * Debugger PIN: 953-239-795
+2024-09-12 11:27:35 - 127.0.0.1 - - [12/Sep/2024 11:27:35] "GET /chat/session HTTP/1.1" 200 -
+2024-09-12 11:27:37 - 127.0.0.1 - - [12/Sep/2024 11:27:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-12 11:27:54 - 127.0.0.1 - - [12/Sep/2024 11:27:54] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-12 11:27:54 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: You are a doctor|Ask user to tell about their gender ,age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again. you have to get all the above information,
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-12 11:27:56 - 127.0.0.1 - - [12/Sep/2024 11:27:56] "POST /chat/ HTTP/1.1" 200 -
+2024-09-12 11:28:03 - 127.0.0.1 - - [12/Sep/2024 11:28:03] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-12 11:28:03 - Function: get_prompt
+Execution Time: 0.001002 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: You are a doctor|Ask user to tell about their gender ,age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again. you have to get all the above information,
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-12 11:28:04 - 127.0.0.1 - - [12/Sep/2024 11:28:04] "POST /chat/ HTTP/1.1" 200 -
+2024-09-12 11:28:07 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: You are a doctor|Ask user to tell about their gender ,age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again. you have to get all the above information,
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-12 11:28:08 - 127.0.0.1 - - [12/Sep/2024 11:28:08] "POST /chat/ HTTP/1.1" 200 -
+2024-09-12 11:28:33 - 127.0.0.1 - - [12/Sep/2024 11:28:33] "OPTIONS /chat/ HTTP/1.1" 200 -
+2024-09-12 11:28:33 - Function: get_prompt
+Execution Time: 0.000000 seconds
+Arguments: () {'filename': 'Feedback_loop.txt'}
+Output: You are a doctor|Ask user to tell about their gender ,age and the problem he is facing ,if he has eaten anything bad , what are the symptoms .Don't ask any same question again and again. you have to get all the above information,
+this is what question has been asked and user has tell so far | user:{user_text} |, return your response in json format {question:"",got_all_info:bool}. when you have gotten all info say i will look into the problem
+-------------------------------------
+2024-09-12 11:28:35 - 127.0.0.1 - - [12/Sep/2024 11:28:35] "POST /chat/ HTTP/1.1" 200 -
+2024-09-12 11:28:35 - 127.0.0.1 - - [12/Sep/2024 11:28:35] "OPTIONS /chat/result HTTP/1.1" 200 -
+2024-09-12 11:28:35 - Function: get_prompt
+Execution Time: 0.000997 seconds
+Arguments: () {'filename': 'llm_query.txt'}
+Output: {query}: change given text into a Google-searchable query(so that i can search the disease on google also make it so that user can find cure for it ) and also give a list of keywords in that query that will help me find relatable articles,dont return keywords that are not in query. Return these in a JSON format, example: {{ 'query': 'new generated query' , 'keywords' : ['keywords'] }}
+-------------------------------------
+2024-09-12 11:28:36 - Function: llm_query
+Execution Time: 0.778655 seconds
+Arguments: () {'query': 'Q: How can I help you today?\nA: i have fever\nQ: What is your gender and age? \nA: 21 male\nQ: Have you eaten anything unusual or suspect you might have food poisoning?\nA: no\nQ: What are your symptoms?\nA: high bp, restlessness,sleeplessness,nausea\n'}
+Output: {'query': 'fever high blood pressure restlessness sleeplessness nausea male 21', 'keywords': ['fever', 'high blood pressure', 'restlessness', 'sleeplessness', 'nausea', 'male', '21']}
+-------------------------------------
+2024-09-12 11:28:36 - Function: calculate_keyword_weights
+Execution Time: 0.192993 seconds
+Arguments: () {'keywords': ['fever', 'high blood pressure', 'restlessness', 'sleeplessness', 'nausea', 'male', '21']}
+Output: {'fever': 3, 'high blood pressure': 3, 'restlessness': 5, 'sleeplessness': 5, 'nausea': 4, 'male': 3, '21': 2, 'high': 1, 'blood': 1, 'pressure': 1}
+-------------------------------------
+2024-09-12 11:28:36 - Function: search_google
+Execution Time: 0.000000 seconds
+Arguments: ('fever high blood pressure restlessness sleeplessness nausea male 21',) {'num_results': 10, 'advanced': True}
+Output: <generator object search at 0x0000028126ECC1F0>
+-------------------------------------
+2024-09-12 11:28:38 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'by CJ Keary · 2013 · Cited by 11 — In autonomic dysfunction syndrome, altered autonomic activity results in hypertension, fever, tachycardia, tachypnea, and pupillary dilation (often in\xa0...', 'keyword_weights': {'fever': 3, 'high blood pressure': 3, 'restlessness': 5, 'sleeplessness': 5, 'nausea': 4, 'male': 3, '21': 2, 'high': 1, 'blood': 1, 'pressure': 1}}
+Output: 0
+-------------------------------------
+2024-09-12 11:28:38 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'Generally, high blood pressure does not cause any symptoms. If a person does experience symptoms, they may include headaches, dizziness, and sleep issues.', 'keyword_weights': {'fever': 3, 'high blood pressure': 3, 'restlessness': 5, 'sleeplessness': 5, 'nausea': 4, 'male': 3, '21': 2, 'high': 1, 'blood': 1, 'pressure': 1}}
+Output: 0
+-------------------------------------
+2024-09-12 11:28:38 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '22 May 2023 — If you have a fever over 104°F (40°C), you should call your doctor. Seek medical help right away if you have a fever along with any of these symptoms.', 'keyword_weights': {'fever': 3, 'high blood pressure': 3, 'restlessness': 5, 'sleeplessness': 5, 'nausea': 4, 'male': 3, '21': 2, 'high': 1, 'blood': 1, 'pressure': 1}}
+Output: 0
+-------------------------------------
+2024-09-12 11:28:38 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '22 Dec 2023 — Research studies have linked sleep deprivation to disorders of the stomach and intestines that can cause nausea and other symptoms.', 'keyword_weights': {'fever': 3, 'high blood pressure': 3, 'restlessness': 5, 'sleeplessness': 5, 'nausea': 4, 'male': 3, '21': 2, 'high': 1, 'blood': 1, 'pressure': 1}}
+Output: 0
+-------------------------------------
+2024-09-12 11:28:38 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '21 Jun 2019 — Headache and fever could be caused by a number of medical issues, including cold and flu, infections, and other more serious conditions.', 'keyword_weights': {'fever': 3, 'high blood pressure': 3, 'restlessness': 5, 'sleeplessness': 5, 'nausea': 4, 'male': 3, '21': 2, 'high': 1, 'blood': 1, 'pressure': 1}}
+Output: 0
+-------------------------------------
+2024-09-12 11:28:38 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': "by PP Stanich · 2010 — A 21-year-old woman presented to the emergency department with chest palpitations, nausea, and vomiting of 6 hours' duration.", 'keyword_weights': {'fever': 3, 'high blood pressure': 3, 'restlessness': 5, 'sleeplessness': 5, 'nausea': 4, 'male': 3, '21': 2, 'high': 1, 'blood': 1, 'pressure': 1}}
+Output: 0
+-------------------------------------
+2024-09-12 11:28:38 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '27 Oct 2021 — Kidney stones or nephrolithiasis · Nausea · Vomiting · Fever · Chills · Painful urination, as well as having to urinate frequently and very urgently\xa0...', 'keyword_weights': {'fever': 3, 'high blood pressure': 3, 'restlessness': 5, 'sleeplessness': 5, 'nausea': 4, 'male': 3, '21': 2, 'high': 1, 'blood': 1, 'pressure': 1}}
+Output: 0
+-------------------------------------
+2024-09-12 11:28:38 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': 'Hypotension, or low blood pressure, can stem from a number of causes. Severe hypotension may indicate an underlying condition that needs treatment.', 'keyword_weights': {'fever': 3, 'high blood pressure': 3, 'restlessness': 5, 'sleeplessness': 5, 'nausea': 4, 'male': 3, '21': 2, 'high': 1, 'blood': 1, 'pressure': 1}}
+Output: 0
+-------------------------------------
+2024-09-12 11:28:38 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': '1 Jan 2023 — Symptoms may include: Severe headache; Nausea and vomiting; Confusion; Vision changes; Nosebleeds. Exams and Tests.', 'keyword_weights': {'fever': 3, 'high blood pressure': 3, 'restlessness': 5, 'sleeplessness': 5, 'nausea': 4, 'male': 3, '21': 2, 'high': 1, 'blood': 1, 'pressure': 1}}
+Output: 0
+-------------------------------------
+2024-09-12 11:28:38 - Function: rate_text_based_on_keywords
+Execution Time: 0.000000 seconds
+Arguments: () {'text': "21 Sept 2023 — Did you know that lack of sleep can affect your immune system and make you sick? Here's what you need to know to keep illness at bay.", 'keyword_weights': {'fever': 3, 'high blood pressure': 3, 'restlessness': 5, 'sleeplessness': 5, 'nausea': 4, 'male': 3, '21': 2, 'high': 1, 'blood': 1, 'pressure': 1}}
+Output: 0
+-------------------------------------
+2024-09-12 11:28:40 -  * Detected change in 'C:\\Python312\\Lib\\site-packages\\beautifulsoup4-4.13.0b2-py3.12.egg\\bs4\\__init__.py', reloading
+2024-09-12 11:28:40 - 127.0.0.1 - - [12/Sep/2024 11:28:40] "[35m[1mPOST /chat/result HTTP/1.1[0m" 500 -
+2024-09-12 11:28:40 -  * Restarting with watchdog (windowsapi)
+2024-09-12 11:28:44 -  * Debugger is active!
+2024-09-12 11:28:44 -  * Debugger PIN: 953-239-795

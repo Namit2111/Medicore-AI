@@ -13,11 +13,12 @@ def save_doctor():
         doctor_data = request.json
         
         doctors = helper.load_doctors_data()
+        
         doctors.append(doctor_data)
 
         helper.save_doctors_data(doctors)
 
         return jsonify({"message": "Doctor registered successfully!"}), 200
     except Exception as e:
-    
+        
         return jsonify({"error": str(e)}), 500

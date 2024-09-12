@@ -89,13 +89,14 @@ def chat():
         new_question = {"question": res.get("question", "What would you like to know next?"), "answer": ""}
         conversation["questions_answers"].append(new_question)
         response_text = res['question']
+        print(session['conversation'])
         
 
     # Update session with the modified conversation
     session['conversation'] = conversation
 
     # Return the new question to the user
-    return jsonify({"response": response_text,"flag":res['got_all_info'],"schedule_f":res["set_schedule"]})
+    return jsonify({"response": response_text,"flag":res['got_all_info']})
 
 @chat_app.route("/result",methods=['POST'])
 def web_res():
@@ -157,7 +158,7 @@ def web_res():
     prompt = utils.get_prompt(filename="cure.txt")
     prompt = prompt.replace("{query}", llm_res['query']).replace("{context}",webtxt)
     response = gemini.generate_json_content(prompt= prompt)
-    # session.pop('conversation', None)
+    session.pop('conversation', None)
     return jsonify({"response":response})
 @chat_app.route('/session')
 def sessionpop():

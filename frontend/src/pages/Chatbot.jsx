@@ -7,6 +7,8 @@ import SendRoundedIcon from "@mui/icons-material/SendRounded";
 import Typewriter from "../components/Typewriter";
 
 function ChatBot() {
+  const[appointment,setAppointment]=useState(false) 
+  const [finishedtyping, setFinishedTyping] = useState(false);
   const [messages, setMessages] = useState([
     { sender: "bot", text: "Hello! How can I assist you today?" },
   ]);
@@ -32,26 +34,36 @@ function ChatBot() {
       const datanew = await response_cure.json();
       console.log("Data from /chat/result:", datanew);
       let newMsg;
-
-      // Check if the response is "No conversation found"
+  
       if (datanew.response === "No conversation found") {
         newMsg = {
           sender: "bot",
-          text: datanew.response, // Directly use the response
+          text: datanew.response,
         };
       } else {
-        // Assuming `datanew.response` is an object with `disease` and `cure` properties
         newMsg = {
           sender: "bot",
-          text: `Possible reasons of your Health:\n ${datanew.response.disease}\n\nRemedies:\n${datanew.response.cure}`, // Format the response
+          text: `Possible reasons of your Health:\n ${datanew.response.disease}\n\nRemedies:\n${datanew.response.cure}`,
         };
       }
   
       setMessages((prevMessages) => [...prevMessages, newMsg]);
+  
+      // After showing the result, ask if they want to schedule an appointment
+     setAppointment(true);
+      const appointmentPrompt = {
+        sender: "bot",
+        text: "Would you like to schedule an appointment?",
+      };
+      if(appointment && finishedtyping){
+        setMessages((prevMessages) => [...prevMessages, appointmentPrompt]);
+      }
+      
     } catch (error) {
       console.error("Error fetching chat result:", error);
     }
   };
+  
   const scheduleAppointment = async () => {
     console.log("inside function");
     try {
@@ -131,56 +143,69 @@ function ChatBot() {
     }
   }, [schedule_f]);
   const handleSendMessage = async () => {
-    try {
-      const newMessage = {
-        sender: "user", // This is the user's message
-        text: input,
+    // Add user message to the chat
+    const newMessage = {
+      sender: "user",
+      text: input,
+    };
+    setMessages((prevMessages) => [...prevMessages, newMessage]);
+  
+    // Check if user response is 'yes' for scheduling appointment
+    if (input.toLowerCase().includes("yes")) {
+      showDoctorOptions(); // This will show doctor options
+    } 
+    // Check if the user input is a number to select a doctor
+    else if (parseInt(input) > 0 && parseInt(input) <= doctors.length) {
+      const selectedDoctor = doctors[parseInt(input) - 1]; // Select doctor
+      const confirmationMessage = {
+        sender: "bot",
+        text: `Appointment scheduled with Dr. ${selectedDoctor.name}.`,
       };
+      setMessages((prevMessages) => [...prevMessages, confirmationMessage]);
+    } 
+    else {
+      // If not "yes" or a valid number, proceed with regular message handling
+      try {
+        const response = await fetch(stateUrl, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ message: input }),
+          credentials: "include",
+        });
   
-      setMessages((prevMessages) => [...prevMessages, newMessage]);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
   
-      // Send the user's message to the server
-      const response = await fetch(stateUrl, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ message: input }),
-        credentials: "include",
-      });
+        const data = await response.json();
   
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        // Handle bot response and special cases (flag or scheduling)
+        if (data && data.response) {
+          const botMessage = {
+            sender: "bot",
+            text: data.response,
+          };
+          setMessages((prevMessages) => [...prevMessages, botMessage]);
+        }
+  
+        if (data.flag) {
+          setFlag(true);  // Trigger additional actions like fetching a result
+        }
+  
+        if (data.schedule_f) {
+          setSchedule(true);  // Trigger the appointment scheduling flow
+        }
+      } catch (error) {
+        console.error("Error fetching messages:", error);
       }
-  
-      const data = await response.json();
-      console.log(data, data.flag);
-  
-      // If the bot responds with a regular message
-      if (data && data.response) {
-        const botMessage = {
-          sender: "bot",
-          text: data.response,
-        };
-        setMessages((prevMessages) => [...prevMessages, botMessage]);
-      }
-      // If the data.flag is true (indicating a special case, like fetching more data)
-      if (data.flag) {
-        setFlag(true);  // This will trigger the useEffect to call fetchChatResult
-      }
-      if (data.schedule_f){
-        setSchedule(true);
-      }
-      else {
-        console.error("Unexpected response format:", data);
-      }
-  
-      // Reset input field after sending the message
-      setInput("");
-    } catch (error) {
-      console.error("Error fetching messages:", error);
     }
+  
+    // Reset input after sending message
+    setInput("");
   };
+  
   
 
   const messagesEndRef = useRef(null);
@@ -194,6 +219,28 @@ function ChatBot() {
     scrollToBottom();
   }, [messages]);
 
+  const doctors = [
+    { name: "Namit Jain", specialty: "Gastroenterologist", address: "2D 122, sector 3, meerut" },
+    { name: "Nimritpreetsingh", specialty: "Cardiologist", address: "Jalandhar, Punjab" },
+    // More doctors can be added here...
+  ];
+
+  const showDoctorOptions = () => {
+    const introMessage = {
+      sender: "bot",
+      text: "Here is the list of available doctors. Please choose a number:",
+    };
+    const doctorMessages = doctors.map((doc, index) => ({
+      sender: "bot",
+      text: `${index + 1}. Dr. ${doc.name} - ${doc.specialty}, ${doc.address}`,
+    }));
+  
+    setMessages((prevMessages) => [...prevMessages, introMessage,...doctorMessages]); // Add doctor list to the chat
+  };
+
+  const handleComplete = () => {
+    console.log('Typing completed');
+};
   return (
     <div className="relative flex flex-col items-center bg-teal-200">
     {/* Header */}
@@ -249,7 +296,7 @@ function ChatBot() {
         }`}
       >
         {msg.sender === "bot" ? (
-          <Typewriter text={msg.text} />
+          <Typewriter text={msg.text} onComplete={handleComplete}/>
         ) : (
           msg.text
         )}

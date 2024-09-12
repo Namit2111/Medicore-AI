@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {RotatingLines} from 'react-loader-spinner'
 import DoctorRegister from '../pages/DoctorRegister';
+import ChatWithBot from '../pages/ChatWithBot';
 const Home = lazy(() => import('../pages/ComingSoon'));
 const Appointments = lazy(() => import('../pages/Chatbot'));
 
@@ -21,7 +22,7 @@ function App() {
   /></div>}>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/chat' element={<Appointments />} />
+          <Route path='/chat' element={<ChatWithBot/>} />
           <Route path = '/register-doctor' element={<DoctorRegister/>}></Route>
         </Routes>
       </Suspense>

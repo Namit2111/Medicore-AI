@@ -1,6 +1,6 @@
 from utils.decorators import time_it
+import os 
 import json
-import os
 def initialize_conversation():
     """
     Initializes a new conversation with a default question.

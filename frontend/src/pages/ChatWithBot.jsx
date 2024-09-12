@@ -117,13 +117,15 @@ const ChatWithBot = () => {
         const newMessages = [...prevMessages];
         
         if (resultData && resultData.response) {
-          const resultText = `
-            Possible Disease: ${resultData.response.disease || 'Unknown'}
+          const resultText = `Possible Disease: ${resultData.response.disease || 'Unknown'}
             
             Cure: ${resultData.response.cure || 'No cure provided'}
+
+            would you like to schedule an appointment with a doctor?
           `;
+          
           newMessages.push({ text: resultText, sender: "bot" });
-          newMessages.push({ text: "Would you like to schedule an appointment with a doctor?", sender: "bot" });
+          // newMessages.push({ text: "Would you like to schedule an appointment with a doctor?", sender: "bot" });
         } else {
           newMessages.push({ text: JSON.stringify(resultData), sender: "bot" });
         }

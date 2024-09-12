@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 
-const TYPING_INTERVAL = 50;
+const TYPING_INTERVAL = 20;
 
 const Typewriter = ({ text, onComplete }) => {
     const [displayedText, setDisplayedText] = useState('');

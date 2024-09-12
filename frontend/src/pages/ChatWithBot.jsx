@@ -64,7 +64,7 @@ const ChatWithBot = () => {
 
     // Send the message to the backend using fetch
     try {
-      const response = await fetch('http://localhost:5000/chat/', {
+      const response = await fetch('/chat/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -98,7 +98,7 @@ const ChatWithBot = () => {
   const getResult = async () => {
     setResultLoading(true);
     try {
-      const resultResponse = await fetch('http://localhost:5000/chat/result', {
+      const resultResponse = await fetch('/chat/result', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -25,7 +25,7 @@ const DoctorRegister = () => {
     const doctorData = { name: doctorName, specialty, address };
     
     try {
-      const response = await fetch('http://localhost:5000/doctor/save', {
+      const response = await fetch('/doctor/save', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

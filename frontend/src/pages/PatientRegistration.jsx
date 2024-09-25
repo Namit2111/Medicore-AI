@@ -1,42 +1,29 @@
-import React, { useState, } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useNavigate,Link } from 'react-router-dom';
 
-const DoctorRegister = () => {
-  const [doctorName, setDoctorName] = useState('');
-  const [specialty, setSpecialty] = useState('');
-  const [address, setAddress] = useState('');
-  const navigate = useNavigate();
 
-  const specialties = [
-    'Gynecologist',
-    'Gastroenterologist',
-    'Cardiologist',
-    'Dermatologist',
-    'Neurologist',
-    'Pediatrician',
-    'Orthopedic Surgeon',
-    'General Physician',
-    'Ophthalmologist',
-  ];
-
+const PatientRegistration = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const navigate=useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    const doctorData = { name: doctorName, specialty, address };
+    const patientData = { name, email, password };
     
     try {
-      const response = await fetch('/doctor/save', {
+      const response = await fetch('/patient/save', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(doctorData),
+        body: JSON.stringify(patientData),
       });
       
       if (response.ok) {
-        // Handle success, maybe navigate to a confirmation page
         alert('Registration Successful!');
-        // navigate('/thank-you'); // Assuming you have a thank-you page
+        // navigate('/thank-you'); // Uncomment if you have a thank-you page
       } else {
         alert('Failed to register. Please try again.');
       }
@@ -55,13 +42,13 @@ const DoctorRegister = () => {
         </div>
         <nav className="hidden md:flex space-x-8">
           <div className="cursor-pointer text-teal-600 hover:text-teal-400 transition duration-300">
-            Testimonials
+            Services
           </div>
           <div className="cursor-pointer text-teal-600 hover:text-teal-400 transition duration-300">
             FAQs
           </div>
         </nav>
-        <div className="bg-teal-500 text-lg font-semibold text-white px-6 py-3 rounded-full cursor-pointer hover:bg-teal-400 transition duration-300" onClick={()=>{navigate('/auth/login')}}>
+        <div className="bg-teal-500 text-lg font-semibold text-white px-6 py-3 rounded-full cursor-pointer hover:bg-teal-400 transition duration-300" onClick={()=>{navigate('login')}}>
           Login
         </div>
       </header>
@@ -70,62 +57,57 @@ const DoctorRegister = () => {
       <section className="flex flex-col items-center justify-center p-16 bg-gradient-to-br from-teal-100 to-teal-50">
         <div className="text-center max-w-2xl">
           <h1 className="text-4xl md:text-6xl font-bold text-teal-800 leading-snug">
-            Doctor Registration
+            Patient Registration
           </h1>
           <p className="mt-4 text-xl text-gray-600">
-            Join Medicore to provide personalized health guidance to our users.
+            Join Medicore for personalized healthcare services and easy access to medical professionals.
           </p>
         </div>
         <form className="mt-8 w-full max-w-lg bg-white p-8 shadow-lg rounded-lg" onSubmit={handleSubmit}>
           {/* Name Input */}
           <div className="mb-6">
-            <label className="block text-teal-800 text-lg font-semibold mb-2" htmlFor="doctorName">
+            <label className="block text-teal-800 text-lg font-semibold mb-2" htmlFor="name">
               Full Name
             </label>
             <input
               type="text"
-              id="doctorName"
+              id="name"
               className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
               placeholder="Enter your full name"
-              value={doctorName}
-              onChange={(e) => setDoctorName(e.target.value)}
+              value={name}
+              onChange={(e) => setName(e.target.value)}
               required
             />
           </div>
 
-          {/* Specialty Dropdown */}
+          {/* Email Input */}
           <div className="mb-6">
-            <label className="block text-teal-800 text-lg font-semibold mb-2" htmlFor="specialty">
-              Specialty
-            </label>
-            <select
-              id="specialty"
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
-              value={specialty}
-              onChange={(e) => setSpecialty(e.target.value)}
-              required
-            >
-              <option value="" disabled>Select your specialty</option>
-              {specialties.map((spec, idx) => (
-                <option key={idx} value={spec}>
-                  {spec}
-                </option>
-              ))}
-            </select>
-          </div>
-
-          {/* Address Input */}
-          <div className="mb-6">
-            <label className="block text-teal-800 text-lg font-semibold mb-2" htmlFor="address">
-              Address
+            <label className="block text-teal-800 text-lg font-semibold mb-2" htmlFor="email">
+              Email
             </label>
             <input
-              type="text"
-              id="address"
+              type="email"
+              id="email"
               className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
-              placeholder="Enter your clinic/hospital address"
-              value={address}
-              onChange={(e) => setAddress(e.target.value)}
+              placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+
+          {/* Password Input */}
+          <div className="mb-6">
+            <label className="block text-teal-800 text-lg font-semibold mb-2" htmlFor="password">
+              Password
+            </label>
+            <input
+              type="password"
+              id="password"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
+              placeholder="Enter your password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
               required
             />
           </div>
@@ -141,10 +123,10 @@ const DoctorRegister = () => {
           </div>
           <div className="mt-4 text-center">
             <Link 
-              to="/auth" 
+              to="/register-doctor" 
               className="text-teal-600 hover:text-teal-800 transition duration-300"
             >
-              Register as a Patient
+              Register as a doctor
             </Link>
           </div>
         </form>
@@ -154,11 +136,11 @@ const DoctorRegister = () => {
       <footer className="p-8 bg-teal-800 text-white text-center">
         <div className="font-extrabold text-4xl mb-4">Medicore</div>
         <p className="max-w-2xl mx-auto text-lg font-light">
-          Join Medicore as a professional and provide personalized, clear, and concise medical information to users worldwide.
+          Join Medicore to access quality healthcare services, book appointments, and manage your medical records easily.
         </p>
       </footer>
     </div>
   );
 };
 
-export default DoctorRegister;
+export default PatientRegistration;

@@ -5,7 +5,7 @@ from app.frontend import frontend
 from app.chat import chat_app
 from app.doctor import doctor
 from flask_cors import CORS
-
+from app.patient import patient
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'secret!'
@@ -20,6 +20,6 @@ CORS(app,supports_credentials=True)
 app.register_blueprint(frontend)
 app.register_blueprint(chat_app)
 app.register_blueprint(doctor)
-
+app.register_blueprint(patient)
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000,debug=True)

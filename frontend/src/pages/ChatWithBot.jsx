@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 import Typewriter from '../components/Typewriter';
 const ChatWithBot = () => {
-  const [messages, setMessages] = useState([{ text: "Hello! How can I assist you today?", sender: "bot" }]);
   const [input, setInput] = useState("");
   const [flag, setFlag] = useState(false);
   const [waitingForAppointment, setWaitingForAppointment] = useState(false);
@@ -9,6 +9,30 @@ const ChatWithBot = () => {
   const [resultLoading, setResultLoading] = useState(false);
   const messagesEndRef = useRef(null); // Ref to handle auto scroll
 
+  const location = useLocation();
+  const [patient, setPatient] = useState({}); // Initialize as an object
+  
+  useEffect(() => {
+    console.log('Location state:', location.state);
+    
+    // Check if location.state exists and contains the name
+    if (location.state && location.state.name) {
+      setPatient(prevState => ({
+        ...prevState, // Spread previous state to retain any other properties
+        name: location.state.name // Set the name property
+      }));
+    }
+  }, [location.state]);
+  const [messages, setMessages] = useState([]);
+  useEffect(() => {
+    if (patient.name) {
+      // Update messages after patient.name is set
+      setMessages(prevMessages => [
+        ...prevMessages,
+        { text: `Hello ${patient.name}! How can I assist you today?`, sender: "bot" }
+      ]);
+    }
+  }, [patient.name]);
   const doctors = [
     {
       name: "Namit Jain",

@@ -6,7 +6,7 @@ const ComingSoon = () => {
   const navigate = useNavigate();
   
   const register = () => {
-    navigate('/chat');
+    navigate('/auth');
   };
 
   return (
@@ -24,7 +24,7 @@ const ComingSoon = () => {
             FAQs
           </div>
         </nav>
-        <div className="bg-teal-500 text-lg font-semibold text-white px-6 py-3 rounded-full cursor-pointer hover:bg-teal-400 transition duration-300">
+        <div className="bg-teal-500 text-lg font-semibold text-white px-6 py-3 rounded-full cursor-pointer hover:bg-teal-400 transition duration-300" onClick={()=>{navigate('/auth/login')}}>
           Login
         </div>
       </header>

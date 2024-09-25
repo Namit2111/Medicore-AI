@@ -55,3 +55,33 @@ def save_doctors_data(data):
     
     with open(DATA_FILE, 'w') as file:
         json.dump(data, file, indent=4)
+PAT_FILE= 'db/patients_data.json'
+@time_it
+def save_patients_data(data):
+    
+    """
+    Saves the doctors' data to the PAT_FILE.
+
+    parameters:
+    data (list): A list of doctors, each represented as a dictionary with keys 'name',
+                'speciality', and 'time_slots'.
+    """
+    
+    with open(PAT_FILE, 'w') as file:
+        json.dump(data, file, indent=4)
+
+def load_patients_data():
+    """
+    Loads the doctors' data from the DATA_FILE.
+
+    The DATA_FILE is expected to be a JSON file containing a list of doctors, each with
+    their name, speciality, and a list of available time slots.
+
+    returns:
+    doctors (list): A list of doctors, each represented as a dictionary with keys 'name',
+                    'speciality', and 'time_slots'.
+    """
+    if os.path.exists(PAT_FILE):
+        with open(PAT_FILE, 'r') as file:
+            return json.load(file)
+    return []

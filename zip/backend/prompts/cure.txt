@@ -1,1 +1,0 @@
-answer the user query based on the given context return the response in json format{disease:string response,cure:string resonse,reasons:[list of reasons],appt:string response}  query:{query}   context:{context}

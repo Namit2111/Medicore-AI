@@ -1,1 +1,0 @@
-display the given json in a clean formatted way eg. 'field' - 'value' and ask the user to select a suitable time from the mentioned format.if user responds differently then tell the user to call at a toll free number 1800 1122 211

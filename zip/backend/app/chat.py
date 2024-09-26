@@ -153,12 +153,11 @@ def web_res():
 
     for link, ratinf in final_links:
         webtxt = webtxt + utils.extract_text_from_website(url = link)
-    doctors = helper.load_doctors_data()
+
     #Final response from chatbot 
     prompt = utils.get_prompt(filename="cure.txt")
-    prompt = prompt.replace("{query}", llm_res['query']).replace("{context}",webtxt).replace("{doctors}",f"{doctors}")
+    prompt = prompt.replace("{query}", llm_res['query']).replace("{context}",webtxt)
     response = gemini.generate_json_content(prompt= prompt)
-    print(response)
     session.pop('conversation', None)
     return jsonify({"response":response})
 @chat_app.route('/session')

@@ -1,1 +1,12 @@
-answer the user query based on the given context return the response in json format{disease:string response,cure:string resonse,reasons:[list of reasons],appt:string response}  query:{query}   context:{context}
+Answer the user query based on the given context and suggest suitable doctors list from the list of available doctors based on their specialty and location. Return the response in JSON format: 
+
+{
+  "disease": "{string response}",
+  "cure": "{string response}",
+  "reasons": [{list of reasons}],
+  "doctor": [{list of suggested doctor objects with name, specialty, and address }]
+}  
+
+query: {query}
+context: {context}
+doctors: {doctors}

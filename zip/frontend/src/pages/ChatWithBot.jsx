@@ -8,7 +8,7 @@ const ChatWithBot = () => {
   const [loading, setLoading] = useState(false); // Loading state for both messages and results
   const [resultLoading, setResultLoading] = useState(false);
   const messagesEndRef = useRef(null); // Ref to handle auto scroll
-  const [doctors,setDoctors]=useState([]);
+
   const location = useLocation();
   const [patient, setPatient] = useState({}); // Initialize as an object
   
@@ -33,7 +33,18 @@ const ChatWithBot = () => {
       ]);
     }
   }, [patient.name]);
-
+  const doctors = [
+    {
+      name: "Namit Jain",
+      specialty: "Gastroenterologist",
+      address: "2D 122, Sector 3, Meerut"
+    },
+    {
+      name: "Nimritpreetsingh",
+      specialty: "Cardiologist",
+      address: "Jalandhar, Punjab"
+    }
+  ];
 
   // Function to scroll to the bottom
   const scrollToBottom = () => {
@@ -124,14 +135,18 @@ const ChatWithBot = () => {
       }
 
       const resultData = await resultResponse.json();
-      console.log(resultData);
-      setDoctors(resultData.response.doctor)
+
       // Update messages state in a single call
       setMessages(prevMessages => {
         const newMessages = [...prevMessages];
         
         if (resultData && resultData.response) {
-          const resultText = `Possible Disease: ${resultData.response.disease || 'Unknown'}\n\nCure: ${resultData.response.cure || 'No cure provided'}\n\n would you like to schedule an appointment with a doctor?`;
+          const resultText = `Possible Disease: ${resultData.response.disease || 'Unknown'}
+            
+            Cure: ${resultData.response.cure || 'No cure provided'}
+
+            would you like to schedule an appointment with a doctor?
+          `;
           
           newMessages.push({ text: resultText, sender: "bot" });
           // newMessages.push({ text: "Would you like to schedule an appointment with a doctor?", sender: "bot" });

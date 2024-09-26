@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Dr. Aisha Malik",
+        "specialty": "Gynecologist",
+        "address": "Delhi"
+    },
+    {
+        "name": "Dr. Priya Sharma",
+        "specialty": "Gynecologist",
+        "address": "Mumbai"
+    },
+    {
+        "name": "Dr. Rakesh Gupta",
+        "specialty": "Gastroenterologist",
+        "address": "Bangalore"
+    },
+    {
+        "name": "Dr. Sneha Iyer",
+        "specialty": "Gastroenterologist",
+        "address": "Hyderabad"
+    },
+    {
+        "name": "Dr. Saurabh Verma",
+        "specialty": "Cardiologist",
+        "address": "Chennai"
+    },
+    {
+        "name": "Dr. Meenakshi Patel",
+        "specialty": "Cardiologist",
+        "address": "Ahmedabad"
+    },
+    {
+        "name": "Dr. Alok Singh",
+        "specialty": "Dermatologist",
+        "address": "Pune"
+    },
+    {
+        "name": "Dr. Kavya Nair",
+        "specialty": "Dermatologist",
+        "address": "Kochi"
+    },
+    {
+        "name": "Dr. Anil Kapoor",
+        "specialty": "Neurologist",
+        "address": "Kolkata"
+    },
+    {
+        "name": "Dr. Shruti Joshi",
+        "specialty": "Neurologist",
+        "address": "Jaipur"
+    },
+    {
+        "name": "Dr. Arvind Kumar",
+        "specialty": "Pediatrician",
+        "address": "Noida"
+    },
+    {
+        "name": "Dr. Pooja Mehta",
+        "specialty": "Pediatrician",
+        "address": "Surat"
+    },
+    {
+        "name": "Dr. Nikhil Bansal",
+        "specialty": "Orthopedic Surgeon",
+        "address": "Lucknow"
+    },
+    {
+        "name": "Dr. Ananya Roy",
+        "specialty": "Orthopedic Surgeon",
+        "address": "Nagpur"
+    },
+    {
+        "name": "Dr. Namit Jain",
+        "specialty": "General Physician",
+        "address": "Meerut"
+    },
+    {
+        "name": "Dr. Nimrit Preet",
+        "specialty": "General Physician",
+        "address": "Ludhiana"
+    },
+    {
+        "name": "Dr. Veena Menon",
+        "specialty": "Ophthalmologist",
+        "address": "Thiruvananthapuram"
+    },
+    {
+        "name": "Dr. Rajat Saxena",
+        "specialty": "Ophthalmologist",
+        "address": "Indore"
+    }
+]
